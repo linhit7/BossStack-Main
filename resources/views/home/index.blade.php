@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BOSSSTACK</title>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <meta name="route" content="{{ request()->route()->getName() }}">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BossStack</title>
 
-    @yield('head')
-    
+  @yield('head')
 </head>
+
 <body>
+  @include('home.header')
 
-    <div class="user-mobile">
-        <a class="sign-in" href="{{ route('login') }}">
-            <span><b>Đăng nhập</b></span>
-        </a>
-    </div>
+  <div class="main">
+    @yield('content')
+  </div>
+  
+  @include('home.footer')
 
-    <H3>TRANG CHỦ BOSSSTACK</H3>
-
+  @yield('scripts')
 </body>
 </html>
