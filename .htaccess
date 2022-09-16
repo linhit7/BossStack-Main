@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_URI} !^public
+    RewriteRule ^(.*)$ public/$1 [L]
+
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+    <Files .env>
+	order allow,deny
+	deny from all	
+    </Files>
+
+    <Files composer.json>
+	order allow,deny
+	deny from all	
+    </Files>
+
+</IfModule>
