@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /public/upload
+/public/image
 /public/imgs/products
 /storage/*.key
 /vendor

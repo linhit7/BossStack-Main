@@ -1,0 +1,26 @@
+header .wrap {
+  height: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .menu {
+  display: flex;
+  align-items: center;
+  column-gap: 3.1rem;
+}
+
+header .menu-link {
+  line-height: 3.4rem;
+  color: var(--gray-cl-7);
+  display: flex;
+  align-items: center;
+  column-gap: 0.6rem;
+}
+
+header .menu-item .btn {
+  --w-btn: 12rem;
+  --h-btn: 4.8rem;
+  --fs-btn: 2rem;
+}

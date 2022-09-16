@@ -1,0 +1,4 @@
+.section-benefit .card-img-top {
+  width: var(--w-card);
+  height: var(--h-card);
+}
