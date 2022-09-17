@@ -1,4 +1,65 @@
-.section-benefit .card-img-top {
-  width: var(--w-card);
-  height: var(--h-card);
+.section-home {
+  position: relative;
+}
+
+.section-home:nth-child(2) {
+  height: 60.6rem;
+}
+
+.section-home .bg-circle {
+  width: 13%;
+  position: absolute;
+  right: 0;
+  bottom: -47%;
+}
+
+.section-home .bg-gray {
+  --w-bg-gray: 70rem;
+  --border-bt-gray: 67rem;
+  --border-l-gray: 26rem;
+}
+
+.section-home .feature-wrap .card-img-top {
+  --w-card: 8.2rem;
+  --h-card: 8.2rem;
+}
+
+.advertise-content {
+  max-width: 64rem;
+}
+
+.advertise-content h3 {
+  color: var(--white-cl);
+  margin-bottom: 2.4rem;
+}
+
+.advertise-content h3 span {
+  font-family: mb;
+}
+
+.bg-advertise-img {
+  width: 63.9rem;
+  position: absolute;
+  top: 50%;
+  right: 20.2rem;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+
+.advertise-content .btn {
+  --w-btn: 18.3rem;
+  --h-btn: 5.8rem;
+  --fs-btn: 2.4rem;
+}
+
+.advertise-content .btn.btn-contact {
+  --cl: var(--second-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--white-cl);
+}
+
+.advertise-content .btn.btn-contact:hover {
+  --cl: var(--white-cl);
+  --border-cl: var(--white-cl);
+  --bg-cl: transparent;
 }

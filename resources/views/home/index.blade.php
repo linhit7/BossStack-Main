@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="{{ asset('assets/css/reset.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/font.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/global.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/component.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/header.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/banner.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">

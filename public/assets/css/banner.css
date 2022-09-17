@@ -31,3 +31,15 @@
   --h-btn: 5.8rem;
   --fs-btn: 2.4rem;
 }
+
+.banner.home-page .btn.btn-contact {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--second-cl);
+}
+
+.banner.home-page .btn.btn-contact:hover {
+  --cl: var(--second-cl);
+  --border-cl: var(--second-cl);
+  --bg-cl: var(--white-cl);
+}
