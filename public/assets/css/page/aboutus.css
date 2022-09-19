@@ -1,0 +1,78 @@
+.about-general {
+  position: relative;
+}
+
+.about-general .bg-circle {
+  position: absolute;
+}
+
+.about-general .bg-circle:first-child {
+  top: 50%;
+  right: -235px;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.about-general .bg-circle:last-child {
+  left: -20%;
+  bottom: -40%;
+}
+
+.section-mission .container {
+  position: relative;
+}
+
+.section-mission .rhombus-img {
+  position: absolute;
+  top: 134px;
+  left: -72px;
+  z-index: 1;
+}
+
+.section-mission .wrap {
+  display: flex;
+  align-items: center;
+  column-gap: 6.4rem;
+}
+
+.mission-content {
+  position: relative;
+  max-width: 74.4rem;
+  z-index: 2;
+}
+
+.mission-content h3 {
+  color: var(--gray-cl-5);
+  margin-bottom: 1.4rem;
+}
+
+.mission-content h2 {
+  margin-bottom: 4.4rem;
+}
+
+.mission-content .btn {
+  --w-btn: 17.5rem;
+  --h-btn: 5.8rem;
+  --fs-btn: 2.4rem;
+}
+
+.mission-content .btn.btn-primary {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--second-cl);
+}
+
+.mission-content .btn.btn-primary:hover {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--primary-cl);
+}
+
+.section-product {
+  z-index: 0;
+  background-color: var(--second-cl);
+}
+
+.section-product h3 {
+  color: var(--white-cl);
+}

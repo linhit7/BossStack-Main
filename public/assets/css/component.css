@@ -1,4 +1,5 @@
 .section {
+  position: relative;
   padding: 9.6rem 0;
 }
 
@@ -10,9 +11,14 @@
   background-color: var(--second-cl);
 }
 
+/* Logo */
+
 .logo {
+  display: inline-block;
   max-width: 20.7rem;
 }
+
+/* Button */
 
 .btn {
   width: var(--w-btn);
@@ -23,93 +29,58 @@
   justify-content: center;
 }
 
-.btn.btn-contact {
+.btn.btn-primary {
   color: var(--cl);
   border: 1px solid var(--border-cl);
   background-color: var(--bg-cl);
   transition: all 0.5s ease-in-out 0s;
 }
 
-.btn.btn-contact:hover {
+.btn.btn-primary:hover {
   color: var(--cl);
   background-color: var(--bg-cl);
   border: 1px solid var(--border-cl);
 }
 
-.card-list {
-  display: flex;
-  justify-content: space-between;
+/* Background trapezium small */
+
+.bg-trapezium-sm {
+  width: 85rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  border-bottom: 12.6rem solid var(--white-cl);
+  border-left: 24rem solid transparent;
 }
 
-.card-list .card {
-  max-width: 42.4rem;
-  height: 30.8rem;
-  padding: 1.2rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  border: 0;
-  background-color: #f4f5f7;
-}
+/* Background trapezium big */
 
-.card-list .card-img-top,
-.card-list .card-title,
-.card-list .card-text {
-  margin-bottom: 1.2rem;
-}
-
-.card-list .card-img-top {
-  width: var(--w-card);
-  height: var(--h-card);
-}
-
-.card-list .card-body {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: none;
-}
-
-.card-list .card-title {
-  font-family: hm;
-}
-
-.card-list .card-text {
-  text-align: center;
-}
-
-.card-list:not(.link) .card-text {
-  margin-bottom: 0;
-}
-
-.card-list .card-link {
-  color: var(--second-cl);
-  font-size: 1.6rem;
-  text-decoration: underline;
-}
-
-.card-list:not(.link) .card-link {
-  display: none;
-}
-
-.bg-gray {
-  width: var(--w-bg-gray);
+.bg-trapezium-xl {
+  width: var(--w-bg-trapezium-xl);
   position: absolute;
   top: 0;
   right: 0;
   z-index: 1;
-  border-bottom: var(--border-bt-gray) solid var(--gray-cl-2);
-  border-left: var(--border-l-gray) solid transparent;
+  border-bottom: var(--border-bt-trapezium) solid var(--gray-cl-2);
+  border-left: var(--border-l-trapezium) solid transparent;
 }
+
+/* Line */
 
 .line {
   width: 100%;
   height: 1.2rem;
   background-color: #95ccdd;
   position: absolute;
-  top: 2.3rem;
   left: 0;
   z-index: 0;
+}
+
+.line.--top {
+  top: 2.3rem;
+}
+
+.line.--bottom {
+  bottom: 1.9rem;
 }

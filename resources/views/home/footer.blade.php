@@ -2,7 +2,7 @@
   <div class="container">
     <div class="wrap">
       <div class="footer-item">
-        <img class="logo" src="{{ asset('image/logo.svg') }}" alt="">
+        <a href="{{ route('home') }}" class="logo"><img class="img-fluid" src="{{ asset('image/logo.svg') }}" alt=""></a>
         <div class="content">
           <p><span>Address:</span> LM81 - 42.OT04 (Officetel), Landmark 81 Vinhomes Central Park, 720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp Hồ Chí Minh.</p>
           <p><span>Hotline:</span> +84 918 90 55 00</p>

@@ -15,11 +15,16 @@
   <link rel="stylesheet" href="{{ asset('assets/css/global.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/component.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/header.css') }}">
-  <link rel="stylesheet" href="{{ asset('assets/css/banner.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/footer.css') }}">
+
+  <!-- Component -->
+  <link rel="stylesheet" href="{{ asset('assets/css/component/banner.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/component/cardList.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/component/formContact.css') }}">
 
   <!-- Page -->
   <link rel="stylesheet" href="{{ asset('assets/css/page/home.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/page/aboutus.css') }}">
 
   @yield('head')
 </head>
@@ -35,6 +40,7 @@
 
   <!-- Bootstrap -->
   <script src="{{ asset('assets/lib/bootstrap/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/js/listTitlePage.js') }}"></script>
   <script src="{{ asset('assets/js/main.js') }}"></script>
 
   @yield('scripts')

@@ -22,4 +22,9 @@ class HomeController extends Controller
         return $this->view('home');
     }
 
+    public function aboutUs()
+    {
+        return $this->view('aboutus');
+    }
+
 }

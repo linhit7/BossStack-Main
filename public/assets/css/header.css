@@ -25,14 +25,14 @@ header .menu-item .btn {
   --fs-btn: 2rem;
 }
 
-header .menu-item .btn.btn-contact {
+header .menu-item .btn.btn-primary {
   --cl: var(--white-cl);
   --border-cl: transparent;
   --bg-cl: var(--second-cl);
 }
 
-header .menu-item .btn.btn-contact:hover {
-  --cl: var(--second-cl);
-  --border-cl: var(--second-cl);
-  --bg-cl: var(--white-cl);
+header .menu-item .btn.btn-primary:hover {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--primary-cl);
 }

@@ -1,7 +1,7 @@
 <header>
   <div class="container">
     <div class="wrap">
-      <img class="logo" src="{{ asset('image/logo.svg') }}" alt="">
+      <a href="{{ route('home') }}" class="logo"><img class="img-fluid" src="{{ asset('image/logo.svg') }}" alt=""></a>
       <ul class="menu">
         <li class="menu-item">
           <a href="#" class="menu-link">
@@ -11,9 +11,9 @@
         </li>
 
         <li class="menu-item">
-          <a href="#" class="menu-link">
+          <a href="{{ route('about-us') }}" class="menu-link">
             Về chúng tôi 
-            <img src="{{ asset('image/icon-down.svg') }}" alt="">
+            <!-- <img src="{{ asset('image/icon-down.svg') }}" alt=""> -->
           </a>
         </li>
 
@@ -29,7 +29,7 @@
         </li>
 
         <li class="menu-item">
-          <a href="#" class="menu-link btn btn-contact">Liên hệ</a>
+          <a href="#" class="menu-link btn btn-primary">Liên hệ</a>
         </li>
       </ul>
     </div>

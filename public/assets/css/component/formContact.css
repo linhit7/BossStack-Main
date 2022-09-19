@@ -1,0 +1,48 @@
+.form-contact .form-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.4rem;
+}
+
+.form-contact .form-item {
+  margin-bottom: 1.6rem;
+}
+
+.form-contact .form-label,
+.form-contact .form-control {
+  line-height: 3rem;
+}
+
+.form-contact .form-label {
+  font-size: 2rem;
+}
+
+.form-contact .form-label span {
+  color: #ff0404;
+  font-weight: bold;
+}
+
+.form-contact .form-control {
+  font-size: 1.6rem;
+  padding: 0.9rem 1.6rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--gray-cl-3);
+}
+
+.form-contact .form-control:focus {
+  border: 1px solid var(--primary-cl);
+  box-shadow: none;
+}
+
+.form-contact textarea.form-control {
+  resize: none;
+}
+
+.form-contact .btn-send {
+  margin-top: 1.6rem;
+}
+
+.form-contact .btn-send.--center {
+  margin-left: auto;
+  margin-right: auto;
+}

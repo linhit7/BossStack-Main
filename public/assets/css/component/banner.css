@@ -1,6 +1,8 @@
+/* Banner Home Page */
+
 .banner.home-page {
   padding: 29rem 0;
-  background-image: url("../../image/banner-homepage.jpg");
+  background-image: url("../../../image/banner-homepage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -32,14 +34,25 @@
   --fs-btn: 2.4rem;
 }
 
-.banner.home-page .btn.btn-contact {
+.banner.home-page .btn.btn-primary {
   --cl: var(--white-cl);
   --border-cl: transparent;
   --bg-cl: var(--second-cl);
 }
 
-.banner.home-page .btn.btn-contact:hover {
-  --cl: var(--second-cl);
-  --border-cl: var(--second-cl);
-  --bg-cl: var(--white-cl);
+.banner.home-page .btn.btn-primary:hover {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--primary-cl);
+}
+
+/* Banner Default */
+
+.banner.default {
+  padding: 6.7rem 0;
+  background-color: var(--second-cl);
+}
+
+.banner.default .wrap {
+  color: var(--white-cl);
 }
