@@ -20,6 +20,7 @@
   <!-- Component -->
   <link rel="stylesheet" href="{{ asset('assets/css/component/banner.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/component/cardList.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/component/cardAdvertisement.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/component/formContact.css') }}">
 
   <!-- Page -->

@@ -27,4 +27,8 @@ class HomeController extends Controller
         return $this->view('aboutus');
     }
 
+    public function lossControl()
+    {
+        return $this->view('feature.lossControl');
+    }
 }

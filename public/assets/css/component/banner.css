@@ -56,3 +56,64 @@
 .banner.default .wrap {
   color: var(--white-cl);
 }
+
+/* Banner Feature */
+
+.banner.feature {
+  height: 49.8rem;
+  padding: 10rem 0;
+  position: relative;
+  background-color: var(--second-cl);
+}
+
+.banner.feature .bg-trapezium-xl {
+  --w-bg-trapezium-xl: 44%;
+  --border-bt-trapezium: 58.4rem;
+  --border-l-trapezium: 26rem;
+}
+
+.banner.feature .feature-wrap {
+  position: relative;
+}
+
+.banner.feature .feature-content {
+  max-width: 74.4rem;
+}
+
+.banner.feature .feature-content h2,
+.banner.feature .feature-content .des {
+  color: var(--white-cl);
+}
+
+.banner.feature .feature-content h2 {
+  margin-bottom: 1.2rem;
+}
+
+.banner.feature .feature-content .des {
+  margin-bottom: 3.2rem;
+}
+
+.banner.feature .btn {
+  --w-btn: 21.1rem;
+  --h-btn: 5.8rem;
+  --fs-btn: 2.4rem;
+}
+
+.banner.feature .btn.btn-primary {
+  --cl: var(--second-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--white-cl);
+}
+
+.banner.feature .btn.btn-primary:hover {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--primary-cl);
+}
+
+.banner.feature .bg-feature-img {
+  position: absolute;
+  top: -8.6rem;
+  right: -28rem;
+  z-index: 3;
+}

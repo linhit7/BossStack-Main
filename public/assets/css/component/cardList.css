@@ -4,7 +4,7 @@
 }
 
 .card-list .card {
-  max-width: 42.4rem;
+  width: 42.4rem;
   height: 30.8rem;
   padding: 1.2rem;
   display: flex;
@@ -38,11 +38,15 @@
   font-family: hm;
 }
 
+.card-list:not(.home) .card-title {
+  display: none;
+}
+
 .card-list .card-text {
   text-align: center;
 }
 
-.card-list:not(.link) .card-text {
+.card-list:not(.home) .card-text {
   margin-bottom: 0;
 }
 
@@ -52,6 +56,6 @@
   text-decoration: underline;
 }
 
-.card-list:not(.link) .card-link {
+.card-list:not(.home) .card-link {
   display: none;
 }

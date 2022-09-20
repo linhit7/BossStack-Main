@@ -9,7 +9,34 @@
         <div class="feature-wrap">
           <h3 class="section-title text-center">Tính năng của BossStack</h3>
           
-          @include('home.component.cardList')
+          <div class="card-list home">
+            <div class="card">
+              <img src="{{ asset('image/icon-bs-1.svg') }}" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Kiểm soát thất thoát</h4>
+                <p class="card-text">Kết nối nhân viên hiện trường và nhà quản lý dễ dàng</p>
+                <a href="#" class="card-link">Xem thêm</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="{{ asset('image/icon-bs-2.svg') }}" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Hỗ trợ ra quyết định</h4>
+                <p class="card-text">Tự động hoá quy trình đánh giá và xây dựng kế hoạch tài chính cho doanh nghiệp</p>
+                <a href="#" class="card-link">Xem thêm</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="{{ asset('image/icon-bs-3.svg') }}" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Coaching</h4>
+                <p class="card-text">Giúp doanh nghiệp và xây dựng chiến lược Quản lý tài chính và Kiểm toán vốn</p>
+                <a href="#" class="card-link">Xem thêm</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -18,7 +45,6 @@
 
     <section class="section section-home section-advertise section-second-cl">
       <div class="bg-trapezium-xl"></div>
-      <img class="bg-advertise-img" src="{{ asset('image/bg-advertise-img.png') }}" alt="">
 
       <div class="container">
         <div class="advertise-wrap">
@@ -26,6 +52,8 @@
             <h3>Tư vấn chuyển đổi số đem lại <span>lợi nhuận tức thì</span> và xây dựng kế hoạch <span>gia tăng lợi nhuận lâu dài.</span></h3>
             <a href="#" class="btn btn-primary">Liên hệ</a>
           </div>
+          
+          <img class="bg-advertise-img" src="{{ asset('image/bg-advertise-img.png') }}" alt="">
         </div>
       </div>
     </section>

@@ -9,12 +9,12 @@
 
 .section-feature .bg-circle {
   position: absolute;
-  right: -22%;
-  bottom: -56%;
+  top: 22.5rem;
+  right: -43.3rem;
 }
 
 .section-home .bg-trapezium-xl {
-  --w-bg-trapezium-xl: 70rem;
+  --w-bg-trapezium-xl: 37%;
   --border-bt-trapezium: 67rem;
   --border-l-trapezium: 26rem;
 }
@@ -22,6 +22,10 @@
 .section-home .feature-wrap .card-img-top {
   --w-card: 8.2rem;
   --h-card: 8.2rem;
+}
+
+.advertise-wrap {
+  position: relative;
 }
 
 .advertise-content {
@@ -41,7 +45,7 @@
   width: 63.9rem;
   position: absolute;
   top: 50%;
-  right: 20.2rem;
+  right: -9.8rem;
   transform: translateY(-50%);
   z-index: 3;
 }
@@ -66,8 +70,8 @@
 
 .section-benefit .bg-circle {
   position: absolute;
-  left: -16%;
-  top: -32%;
+  top: -41.2rem;
+  left: -22rem;
 }
 
 .benefit-content {
