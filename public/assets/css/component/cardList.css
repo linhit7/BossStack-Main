@@ -36,26 +36,21 @@
 
 .card-list .card-title {
   font-family: hm;
+  text-align: center;
+  min-height: 5.8rem;
 }
 
 .card-list:not(.home) .card-title {
-  display: none;
+  font-family: hl;
+  margin-bottom: 0;
 }
 
 .card-list .card-text {
   text-align: center;
 }
 
-.card-list:not(.home) .card-text {
-  margin-bottom: 0;
-}
-
 .card-list .card-link {
   color: var(--second-cl);
   font-size: 1.6rem;
   text-decoration: underline;
-}
-
-.card-list:not(.home) .card-link {
-  display: none;
 }

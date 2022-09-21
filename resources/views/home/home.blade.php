@@ -4,7 +4,7 @@
   @include('home.banner.homepage')
 
   <div class="main-home">
-    <section class="section section-home section-feature overflow-hidden">
+    <section class="section section-home section-feature overflow-hidden pt-96">
       <div class="container">
         <div class="feature-wrap">
           <h3 class="section-title text-center">Tính năng của BossStack</h3>
@@ -137,7 +137,7 @@
       </div>
     </section>
 
-    <section class="section section-home section-contact">
+    <section class="section section-home section-contact pb-96">
       <div class="container">
         <div class="benefit-wrap">
           <h3 class="section-title text-center">Liên hệ với chúng tôi</h3>

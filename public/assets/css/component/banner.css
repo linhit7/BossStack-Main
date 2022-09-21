@@ -87,6 +87,8 @@
 
 .banner.feature .feature-content h2 {
   margin-bottom: 1.2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .banner.feature .feature-content .des {
@@ -111,9 +113,16 @@
   --bg-cl: var(--primary-cl);
 }
 
+.banner.feature .circle-disc-blue {
+  position: absolute;
+  top: -51px;
+  left: -71px;
+  z-index: 0;
+}
+
 .banner.feature .bg-feature-img {
   position: absolute;
   top: -8.6rem;
-  right: -28rem;
+  left: 85rem;
   z-index: 3;
 }

@@ -14,11 +14,11 @@
         <h4 class="footer-title">Tính năng</h4>
         <ul class="menu">
           <li class="menu-item">
-            <a href="#" class="menu-link">Kiểm soát thất thoát</a>
+            <a href="{{ route('loss-control') }}" class="menu-link">Kiểm soát thất thoát</a>
           </li>
 
           <li class="menu-item">
-            <a href="#" class="menu-link">Coaching</a>
+            <a href="{{ route('coaching') }}" class="menu-link">Coaching</a>
           </li>
 
           <li class="menu-item">
@@ -31,7 +31,7 @@
         <h4 class="footer-title">Về chúng tôi</h4>
         <ul class="menu">
           <li class="menu-item">
-            <a href="#" class="menu-link">Về BossStack</a>
+            <a href="{{ route('about-us') }}" class="menu-link">Về BossStack</a>
           </li>
 
           <li class="menu-item">

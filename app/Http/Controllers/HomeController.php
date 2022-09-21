@@ -31,4 +31,9 @@ class HomeController extends Controller
     {
         return $this->view('feature.lossControl');
     }
+
+    public function coaching()
+    {
+        return $this->view('feature.coaching');
+    }
 }

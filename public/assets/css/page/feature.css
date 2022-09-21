@@ -1,0 +1,89 @@
+.feature-page {
+  position: relative;
+}
+
+.section-feature .card-list .card-img-top {
+  --w-card: 9.6rem;
+  --h-card: 9.6rem;
+}
+
+/* Lost control */
+
+.loss-control .bg-circle {
+  position: absolute;
+}
+
+.loss-control .bg-circle:first-child {
+  top: 150rem;
+  right: -34.5rem;
+  z-index: 1;
+}
+
+.loss-control .bg-circle:last-child {
+  left: -41rem;
+  bottom: -32rem;
+}
+
+.section-network {
+  background-color: var(--second-cl);
+}
+
+.section-network h3 {
+  max-width: 117.2rem;
+  color: var(--white-cl);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-network h3 span {
+  font-family: mb;
+  color: var(--primary-cl);
+}
+
+.network-group {
+  margin-bottom: 8.8rem;
+}
+
+.network-group:last-child {
+  margin-bottom: 0;
+}
+
+.network-group .title {
+  text-align: center;
+  color: var(--white-cl);
+  margin-bottom: 4.8rem;
+}
+
+/* Coaching */
+
+.coaching .section-feature .wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.section-manage .circle-disc-gray {
+  max-width: 25.4rem;
+  position: absolute;
+  top: 0;
+  left: -12.7rem;
+}
+
+.coaching .bg-circle {
+  position: absolute;
+  top: 87.6rem;
+  right: -34.5rem;
+}
+
+.section-course .card-advertisement {
+  position: relative;
+  z-index: 2;
+}
+
+.section-course .circle-disc-gray {
+  max-width: 23.5rem;
+  z-index: 1;
+  position: absolute;
+  top: -5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}

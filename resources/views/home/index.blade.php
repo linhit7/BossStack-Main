@@ -26,6 +26,7 @@
   <!-- Page -->
   <link rel="stylesheet" href="{{ asset('assets/css/page/home.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/page/aboutus.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/page/feature.css') }}">
 
   @yield('head')
 </head>

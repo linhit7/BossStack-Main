@@ -11,9 +11,9 @@
         </li>
 
         <li class="menu-item">
-          <a href="{{ route('about-us') }}" class="menu-link">
+          <a href="#" class="menu-link">
             Về chúng tôi 
-            <!-- <img src="{{ asset('image/icon-down.svg') }}" alt=""> -->
+            <img src="{{ asset('image/icon-down.svg') }}" alt="">
           </a>
         </li>
 

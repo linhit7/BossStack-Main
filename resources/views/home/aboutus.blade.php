@@ -6,7 +6,7 @@
   <div class="main-about">
     <div class="about-general overflow-hidden">
       <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="">
-      <div class="section section-about section-mission">
+      <div class="section section-about section-mission pt-96">
         <div class="container">
           <img class="img-fluid rhombus-img" src="{{ asset('image/rhombus-img.png') }}" alt="">
           <div class="wrap">
