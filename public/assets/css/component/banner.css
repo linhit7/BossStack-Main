@@ -121,6 +121,7 @@
 }
 
 .banner.feature .bg-feature-img {
+  max-width: 73.2rem;
   position: absolute;
   top: -8.6rem;
   left: 85rem;

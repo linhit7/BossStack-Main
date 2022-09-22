@@ -24,10 +24,6 @@
   bottom: -32rem;
 }
 
-.section-network {
-  background-color: var(--second-cl);
-}
-
 .section-network h3 {
   max-width: 117.2rem;
   color: var(--white-cl);
@@ -86,4 +82,87 @@
   top: -5rem;
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* Decision Support */
+
+.section-problem .card-advertisement .card-body {
+  color: var(--white-cl);
+}
+
+.decision-support {
+  position: relative;
+}
+
+.decision-support .bg-circle {
+  position: absolute;
+}
+
+.decision-support .bg-circle:first-child {
+  top: 27rem;
+  right: -34.5rem;
+  z-index: 1;
+}
+
+.decision-support .bg-circle:nth-child(2) {
+  left: -39rem;
+  bottom: 83.3rem;
+}
+
+.decision-support .bg-circle:nth-child(3) {
+  right: -34.5rem;
+  bottom: 25.6rem;
+}
+
+.decision-support .section-benefitApp .feature-wrap {
+  position: relative;
+  z-index: 2;
+}
+
+.decision-support .section-title {
+  max-width: 116.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-system {
+  position: relative;
+}
+
+.section-system .circle-disc-gray {
+  position: absolute;
+  top: -255px;
+  right: 75px;
+  z-index: -1;
+}
+
+.decision-support .section-title .highlight,
+.decision-support .section-tool p .highlight {
+  color: var(--second-cl);
+}
+
+.decision-support .section-title .highlight {
+  font-family: mb;
+}
+
+.decision-support .section-tool p .highlight {
+  font-family: hb;
+}
+
+.decision-support .section-tool .btn {
+  --w-btn: 21.1rem;
+  --h-btn: 5.8rem;
+  --fs-btn: 2.4rem;
+}
+
+.decision-support .section-tool .btn.btn-primary {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--second-cl);
+}
+
+.decision-support .section-tool .btn.btn-primary:hover {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--primary-cl);
 }

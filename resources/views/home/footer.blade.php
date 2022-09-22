@@ -22,7 +22,7 @@
           </li>
 
           <li class="menu-item">
-            <a href="#" class="menu-link">Hỗ trợ ra quyết định</a>
+            <a href="{{ route('decision-support') }}" class="menu-link">Hỗ trợ ra quyết định</a>
           </li>
         </ul>
       </div>
@@ -39,7 +39,7 @@
           </li>
 
           <li class="menu-item">
-            <a href="#" class="menu-link">Liên hệ</a>
+            <a href="{{ route('contact') }}" class="menu-link">Liên hệ</a>
           </li>
         </ul>
       </div>

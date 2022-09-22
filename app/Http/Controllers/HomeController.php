@@ -36,4 +36,14 @@ class HomeController extends Controller
     {
         return $this->view('feature.coaching');
     }
+
+    public function decisionSupport()
+    {
+        return $this->view('feature.decisionSupport');
+    }
+
+    public function contact()
+    {
+        return $this->view('contact');
+    }
 }

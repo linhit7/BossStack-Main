@@ -20,7 +20,7 @@
         </div>
         <div class="line --bottom"></div>
       </div>
-      <div class="section section-about section-product">
+      <div class="section section-about section-product section-second-cl">
         <div class="container">
           <div class="wrap">
             <h3>Sản phẩm ngành</h3>
@@ -98,6 +98,28 @@
             <div class="card-leadership">
               <div class="card-item">
                 <div class="card-image">
+                  <img class="img-fluid" src="{{ asset('image/leader-img-2.jpg') }}" alt="">
+                </div>
+                <div class="card-body">
+                  <h4 class="leadership-name">
+                    Chau Pham
+                    <a href="#"><img class="img-fluid" src="{{ asset('image/linkedin.svg') }}" alt=""></a>
+                  </h4>
+                  <p class="leadership-des">CEO/Founder</p>
+                  <div class="leadership-content">
+                    <p>Hơn 15 năm kinh nghiệm về tài chính, đầu tư và 10 năm kinh nghiệm trong ngành ngân hàng</p>
+                    <ul>
+                      <li>2018 - Hiện tại: CEO, Founder Fiinves</li>
+                      <li>2015 - HIện tại: CEO, Founder Lamstech</li>
+                      <li>2014 - Hiện tại: CEO, Founder Rbooks</li>
+                      <li>2012 - 2017: Phó giám đốc, giám đốc chi nhánh ngân hàng.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card-item">
+                <div class="card-image">
                   <img class="img-fluid" src="{{ asset('image/leader-img-1.jpg') }}" alt="">
                 </div>
                 <div class="card-body">
@@ -134,28 +156,6 @@
                           <li>Công ty NWFG của Tập đoàn UK với Garment factory & Industry Park.</li>
                         </ul>
                       </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-item">
-                <div class="card-image">
-                  <img class="img-fluid" src="{{ asset('image/leader-img-2.jpg') }}" alt="">
-                </div>
-                <div class="card-body">
-                  <h4 class="leadership-name">
-                    Chau Pham
-                    <a href="#"><img class="img-fluid" src="{{ asset('image/linkedin.svg') }}" alt=""></a>
-                  </h4>
-                  <p class="leadership-des">CEO/Founder</p>
-                  <div class="leadership-content">
-                    <p>Hơn 15 năm kinh nghiệm về tài chính, đầu tư và 10 năm kinh nghiệm trong ngành ngân hàng</p>
-                    <ul>
-                      <li>2018 - Hiện tại: CEO, Founder Fiinves</li>
-                      <li>2015 - HIện tại: CEO, Founder Lamstech</li>
-                      <li>2014 - Hiện tại: CEO, Founder Rbooks</li>
-                      <li>2012 - 2017: Phó giám đốc, giám đốc chi nhánh ngân hàng.</li>
                     </ul>
                   </div>
                 </div>

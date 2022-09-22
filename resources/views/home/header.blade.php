@@ -29,7 +29,7 @@
         </li>
 
         <li class="menu-item">
-          <a href="#" class="menu-link btn btn-primary">Liên hệ</a>
+          <a href="{{ route('contact') }}" class="menu-link btn btn-primary">Liên hệ</a>
         </li>
       </ul>
     </div>

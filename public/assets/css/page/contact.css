@@ -1,0 +1,14 @@
+.main-contact .contact-info {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 1.6rem;
+}
+
+.main-contact .contact-info .icon {
+  margin-top: 5px;
+}
+
+.main-contact .contact-item:last-child .logo,
+.main-contact .contact-item:last-child h4 {
+  margin-bottom: 1.6rem;
+}

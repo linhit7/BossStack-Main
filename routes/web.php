@@ -17,6 +17,8 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('about-us', 'HomeController@aboutUs')->name('about-us');
 Route::get('loss-control', 'HomeController@lossControl')->name('loss-control');
 Route::get('coaching', 'HomeController@coaching')->name('coaching');
+Route::get('decision-support', 'HomeController@decisionSupport')->name('decision-support');
+Route::get('contact', 'HomeController@contact')->name('contact');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
 //Trang tin khách hàng/quản trị

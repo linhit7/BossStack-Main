@@ -103,7 +103,7 @@
       </div>
     </section>
 
-    <section class="section section-feature section-network pb-96">
+    <section class="section section-feature section-network section-second-cl pb-96">
       <div class="container">
         <div class="wrap">
           <h3 class="section-title text-center">Kết nối quản lý <span>tại văn phòng và nhân viên tuyến đầu</span></h3>

@@ -41,8 +41,3 @@
 .form-contact .btn-send {
   margin-top: 1.6rem;
 }
-
-.form-contact .btn-send.--center {
-  margin-left: auto;
-  margin-right: auto;
-}

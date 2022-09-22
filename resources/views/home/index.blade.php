@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BossStack</title>
+  <link rel="shortcut icon" href="{{ asset('image/favicon.ico') }}" type="image/x-icon">
 
   <!-- Library -->
   <link rel="stylesheet" href="{{ asset('assets/lib/bootstrap/bootstrap.min.css') }}">
@@ -27,6 +28,7 @@
   <link rel="stylesheet" href="{{ asset('assets/css/page/home.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/page/aboutus.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/page/feature.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/page/contact.css') }}">
 
   @yield('head')
 </head>

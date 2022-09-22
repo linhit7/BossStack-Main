@@ -69,7 +69,6 @@
 
 .section-product {
   z-index: 0;
-  background-color: var(--second-cl);
 }
 
 .section-product h3 {
@@ -162,7 +161,7 @@
 
 .section-about-history .wrap {
   position: relative;
-  height: 160rem;
+  height: 170rem;
 }
 
 .section-about-history .history-tree {
