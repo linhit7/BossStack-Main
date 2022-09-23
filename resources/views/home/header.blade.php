@@ -25,7 +25,7 @@
         </li>
         
         <li class="menu-item">
-          <a href="#" class="menu-link">Tuyển dụng</a>
+          <a href="{{ route('recruitment') }}" class="menu-link">Tuyển dụng</a>
         </li>
 
         <li class="menu-item">

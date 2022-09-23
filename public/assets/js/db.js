@@ -33,6 +33,11 @@ const listTitlePage = [
     link: "https://bossstack.com.vn/recruitment",
   },
   {
+    titlePage: "Tuyển dụng",
+    description: "",
+    link: "https://bossstack.com.vn/recruitment-detail",
+  },
+  {
     titlePage: "Khách hàng BossStack",
     description:
       "Lý do các công ty chọn giải pháp công nghệ của BossStack trong quản lý tài chính và vận hành doanh nghiệp",
@@ -42,5 +47,32 @@ const listTitlePage = [
     titlePage: "Liên hệ",
     description: "",
     link: "https://bossstack.com.vn/contact",
+  },
+];
+
+const recruitmentListdb = [
+  {
+    position: "Tuyển dụng leader Kế toán",
+    dealine: "29/09/2022",
+  },
+  {
+    position: "Tuyển dụng nhân viên Back - End",
+    dealine: "29/09/2022",
+  },
+  {
+    position: "Tuyển dụng nhân viên Marketing",
+    dealine: "29/09/2022",
+  },
+  {
+    position: "Tuyển dụng chuyên viên Font - end",
+    dealine: "29/09/2022",
+  },
+  {
+    position: "Tuyển dụng UI/UX Designer",
+    dealine: "29/09/2022",
+  },
+  {
+    position: "Tuyển dụng nhân viên Graphic Designer",
+    dealine: "29/09/2022",
   },
 ];

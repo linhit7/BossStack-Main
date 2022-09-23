@@ -6,7 +6,7 @@ let getBtnBanner = getBannerDefault.getElementsByTagName("a");
 listTitlePage.map((element) => {
   if (window.location.href === element.link) {
     getTitlePage.innerHTML = element.titlePage;
-    if (element.des !== "") {
+    if (element.description !== "") {
       getDesPage.innerHTML = element.description;
     }
 
@@ -16,3 +16,11 @@ listTitlePage.map((element) => {
     }
   }
 });
+
+let getRecruitmentList = document.querySelector(".recruitment-list");
+let nameRecruitmentInfo = getRecruitmentList.querySelector(".name");
+console.log("nameRecruitmentInfo", nameRecruitmentInfo);
+let dealineRecruitmentInfo = getRecruitmentList.querySelector(".dealine");
+// recruitmentListdb.map((item) => {
+
+// });

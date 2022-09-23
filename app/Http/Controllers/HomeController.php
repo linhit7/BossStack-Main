@@ -42,6 +42,16 @@ class HomeController extends Controller
         return $this->view('feature.decisionSupport');
     }
 
+    public function recruitment()
+    {
+        return $this->view('recruitment');
+    }
+
+    public function recruitmentDetail()
+    {
+        return $this->view('recruitmentDetail');
+    }
+
     public function contact()
     {
         return $this->view('contact');

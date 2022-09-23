@@ -18,6 +18,8 @@ Route::get('about-us', 'HomeController@aboutUs')->name('about-us');
 Route::get('loss-control', 'HomeController@lossControl')->name('loss-control');
 Route::get('coaching', 'HomeController@coaching')->name('coaching');
 Route::get('decision-support', 'HomeController@decisionSupport')->name('decision-support');
+Route::get('recruitment', 'HomeController@recruitment')->name('recruitment');
+Route::get('recruitment-detail', 'HomeController@recruitmentDetail')->name('recruitment-detail');
 Route::get('contact', 'HomeController@contact')->name('contact');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 

@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="{{ asset('assets/css/page/home.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/page/aboutus.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/page/feature.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/page/recruitment.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/page/contact.css') }}">
 
   @yield('head')
@@ -44,7 +45,7 @@
 
   <!-- Bootstrap -->
   <script src="{{ asset('assets/lib/bootstrap/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('assets/js/listTitlePage.js') }}"></script>
+  <script src="{{ asset('assets/js/db.js') }}"></script>
   <script src="{{ asset('assets/js/main.js') }}"></script>
 
   @yield('scripts')
