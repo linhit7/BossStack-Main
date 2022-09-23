@@ -34,7 +34,26 @@
             </button>
           </div>
           <div class="col-12 col-lg-6 job-requirements">
-            
+            <div class="job-description item">
+              <h4>Mô tả công việc:</h4>
+              <ul>
+                <li>Tham gia phát triển các hệ thống website của công ty.</li>
+                <li>Tham gia phân tích, thiết kế, và cải tiến chức năng cho các sản phẩm, dịch vụ của công ty và khách hàng.</li>
+                <li>Phối hợp làm việc với team để nâng cao chất lượng công việc.</li>
+                <li>Tối ưu code để tăng tốc xử lý và mở rộng.</li>
+                <li>Tìm hiểu công nghệ theo yêu cầu của cấp trên.</li>
+                <li>Các nhiệm vụ khác theo yêu cầu của BGĐ công ty.</li>
+              </ul>
+            </div>
+            <div class="advanced-skill item">
+              <h4>Kỹ năng & Chuyên môn:</h4>
+              <ul>
+                <li>Có kinh nghiệm lập trình Web (HTML, CSS, Javascript).</li>
+                <li>Thích thú với việc nghiên cứu, tìm tòi và áp dụng kỹ thuật mới.</li>
+                <li>Chăm chỉ, chịu khó, có tinh thần chủ động học hỏi, tìm hiểu.</li>
+                <li>Tìm hiểu các công nghệ mới, tham gia các buổi seminar của công ty.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
