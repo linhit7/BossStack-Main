@@ -114,12 +114,12 @@
   margin-bottom: 3.2rem;
 }
 
-.section-recruitmentDetail .work-content li {
+.section-recruitmentDetail .wrap li {
   color: var(--gray-cl-6);
   margin-bottom: 1.2rem;
 }
 
-.section-recruitmentDetail .work-content li:last-child {
+.section-recruitmentDetail .wrap li:last-child {
   margin-bottom: 0;
 }
 
@@ -136,6 +136,100 @@
 }
 
 .section-recruitmentDetail .work-content .btn.btn-primary:hover {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--primary-cl);
+}
+
+#applyModal .modal-dialog {
+  max-width: 97rem;
+}
+
+#applyModal .modal-content {
+  border: 0;
+}
+
+#applyModal .modal-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5.8rem;
+}
+
+#applyModal .modal-body h4 {
+  max-width: 70.6rem;
+  text-align: center;
+  font-family: hl;
+  color: var(--black-cl);
+  margin-bottom: 8.5rem;
+}
+
+#applyModal .form-apply {
+  width: 77.1rem;
+}
+
+#applyModal .form-apply .form-item {
+  position: relative;
+  margin-bottom: 2.4rem;
+}
+
+#applyModal .form-apply input {
+  font-size: 1.6rem;
+  color: #8c8c8c;
+  padding: 1rem;
+}
+
+#applyModal .form-apply input:focus {
+  border: 1px solid var(--primary-cl);
+  box-shadow: none;
+}
+
+#applyModal .form-apply input:focus + label {
+  display: none;
+}
+
+#applyModal .form-apply label {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  color: #8c8c8c;
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+}
+
+#applyModal label span {
+  color: #de1919;
+}
+
+#applyModal .modal-footer {
+  border-top: 0;
+  padding-bottom: 5.8rem;
+  justify-content: center;
+}
+
+#applyModal .modal-footer .btn {
+  font-family: hm;
+  text-transform: uppercase;
+  --w-btn: 18rem;
+  --h-btn: 5.8rem;
+  --fs-btn: 1.6rem;
+}
+
+#applyModal .modal-footer .btn.btn-exit.btn-primary {
+  --cl: var(--second-cl);
+  --border-cl: var(--second-cl);
+  --bg-cl: transparent;
+}
+
+#applyModal .modal-footer .btn.btn-apply.btn-primary {
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--second-cl);
+}
+
+#applyModal .modal-footer .btn.btn-exit.btn-primary:hover,
+#applyModal .modal-footer .btn.btn-apply.btn-primary:hover {
   --cl: var(--white-cl);
   --border-cl: transparent;
   --bg-cl: var(--primary-cl);
