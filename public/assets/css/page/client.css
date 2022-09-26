@@ -1,0 +1,73 @@
+.section-client-story {
+  background-color: #f4f5f7;
+}
+
+.section-client-story h3 {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.client-news .nav-pills {
+  margin-bottom: 4.8rem;
+  column-gap: 1.2rem;
+}
+
+.client-news .nav-link {
+  font-size: 2.4rem;
+  padding: 6px 12px;
+  color: var(--gray-cl-5);
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.client-news .nav-link.active {
+  color: var(--second-cl);
+  background-color: transparent;
+  border-bottom: 2px solid var(--second-cl);
+}
+
+.client-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  column-gap: 2.4rem;
+}
+
+.client-list .card {
+  width: 42.4rem;
+  padding: 1.6rem;
+  border: none;
+}
+
+.client-list .card-img-top {
+  margin-bottom: 6px;
+}
+
+.client-list .card-body {
+  padding: 0;
+}
+
+.client-list .card-body p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  margin-bottom: 8px;
+}
+
+.client-list .card-title {
+  font-family: hb;
+  -webkit-line-clamp: 1;
+}
+
+.client-list .card-text {
+  -webkit-line-clamp: 6;
+}
+
+.client-list .card .btn-readmore {
+  font-size: 1.6rem;
+  color: var(--second-cl);
+  display: flex;
+  justify-content: center;
+}

@@ -52,7 +52,7 @@
           </li>
 
           <li class="menu-item">
-            <a href="#" class="menu-link">Khách hàng</a>
+            <a href="{{ route('client') }}" class="menu-link">Khách hàng</a>
           </li>
         </ul>
       </div>

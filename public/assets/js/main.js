@@ -17,10 +17,22 @@ listTitlePage.map((element) => {
   }
 });
 
-let getRecruitmentList = document.querySelector(".recruitment-list");
-let nameRecruitmentInfo = getRecruitmentList.querySelector(".name");
-console.log("nameRecruitmentInfo", nameRecruitmentInfo);
-let dealineRecruitmentInfo = getRecruitmentList.querySelector(".dealine");
+// let getRecruitmentList = document.querySelector(".recruitment-list");
+// let nameRecruitmentInfo = getRecruitmentList.querySelector(".name");
+// console.log("nameRecruitmentInfo", nameRecruitmentInfo);
+// let dealineRecruitmentInfo = getRecruitmentList.querySelector(".dealine");
 // recruitmentListdb.map((item) => {
 
 // });
+
+let filePath = document.querySelector("#cv");
+let selectLabelUpload = document.querySelector(".label-icon");
+let selectCvFile = document.querySelector(".cv-file");
+selectCvFile.style.display = "none";
+filePath.addEventListener("change", function demo() {
+  let nameFile = filePath.value.slice(12);
+  if (nameFile) {
+    selectCvFile.style.display = "block";
+    selectCvFile.innerHTML = nameFile;
+  }
+});

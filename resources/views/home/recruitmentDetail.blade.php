@@ -78,31 +78,38 @@
       <div class="modal-content">
         <form action="">
           <div class="modal-body">
-            <h4>Bạn đang ứng tuyển vị trí Frontend Developer (Angular) tại công ty Digital Service Solutions (DSS)</h4>
+            <h4>Bạn đang ứng tuyển vị trí Frontend Developer tại BossStack</h4>
             <div class="form-apply">
-              <div class="form-item">
-                <label for="fullName" class="form-label">Tên của bạn <span>&#42;</span></label>
+              <div class="form-item form-info">
                 <input type="text" id="fullName" class="form-control" required>
+                <label for="fullName" class="form-label">Tên của bạn <span>&#42;</span></label>
               </div>
               
               <div class="form-group">
-                <div class="form-item">
-                  <label for="email" class="form-label">Email <span>&#42;</span></label>
+                <div class="form-item form-info">
                   <input type="email" id="email" class="form-control" required>
+                  <label for="email" class="form-label">Email <span>&#42;</span></label>
                 </div>
 
-                <div class="form-item">
-                  <label for="phone" class="form-label">Số điện thoại <span>&#42;</span></label>
+                <div class="form-item form-info">
                   <input type="text" id="phone" class="form-control" required>
+                  <label for="phone" class="form-label">Số điện thoại <span>&#42;</span></label>
                 </div>
               </div>
 
-              <div class="form-item">
-                <label for="address" class="form-label">Địa chỉ của bạn</label>
+              <div class="form-item form-info">
                 <input type="text" id="address" class="form-control">
+                <label for="address" class="form-label">Địa chỉ của bạn</label>
               </div>
 
               <div class="form-item">
+                <div class="cv-group">
+                  <span class="title">Tải CV lên</span>
+                  <span class="cv-file"></span>
+                  <label for="cv" class="form-label label-icon">
+                    <img class="img-fluid" src="{{ asset('image/icon-upload.svg') }}" alt="">
+                  </label>
+                </div>
                 <input type="file" id="cv" class="form-control">
               </div>
             </div>

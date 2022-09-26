@@ -41,7 +41,13 @@ const listTitlePage = [
     titlePage: "Khách hàng BossStack",
     description:
       "Lý do các công ty chọn giải pháp công nghệ của BossStack trong quản lý tài chính và vận hành doanh nghiệp",
-    link: "https://bossstack.com.vn/bossstack-customers",
+    link: "https://bossstack.com.vn/client",
+  },
+  {
+    titlePage: "Khách hàng BossStack",
+    description:
+      "Lý do các công ty chọn giải pháp công nghệ của BossStack trong quản lý tài chính và vận hành doanh nghiệp",
+    link: "https://bossstack.com.vn/clientDetail",
   },
   {
     titlePage: "Liên hệ",

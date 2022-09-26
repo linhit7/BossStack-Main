@@ -168,7 +168,13 @@
   width: 77.1rem;
 }
 
-#applyModal .form-apply .form-item {
+#applyModal .form-apply .form-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.4rem;
+}
+
+#applyModal .form-apply .form-info {
   position: relative;
   margin-bottom: 2.4rem;
 }
@@ -179,17 +185,26 @@
   padding: 1rem;
 }
 
-#applyModal .form-apply input:focus {
+#applyModal .form-apply input[type="file"] {
+  display: none;
+}
+
+#applyModal .form-info input:focus {
   border: 1px solid var(--primary-cl);
   box-shadow: none;
 }
 
-#applyModal .form-apply input:focus + label {
+#applyModal .form-info input:focus + label {
   display: none;
 }
 
-#applyModal .form-apply label {
+#applyModal .form-info label,
+#applyModal .cv-group .title,
+#applyModal .cv-group .cv-file {
   font-size: 1.6rem;
+}
+
+#applyModal .form-info label {
   margin-bottom: 0;
   color: #8c8c8c;
   position: absolute;
@@ -198,12 +213,33 @@
   transform: translateY(-50%);
 }
 
-#applyModal label span {
+#applyModal .form-info label span {
   color: #de1919;
+}
+
+#applyModal .cv-group {
+  display: flex;
+  align-items: center;
+  column-gap: 2.4rem;
+}
+
+#applyModal .cv-group .title {
+  font-family: hb;
+}
+
+#applyModal .cv-group label {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+#applyModal .cv-group .cv-file {
+  font-family: hm;
 }
 
 #applyModal .modal-footer {
   border-top: 0;
+  margin-top: 3.4rem;
+  padding-top: 0;
   padding-bottom: 5.8rem;
   justify-content: center;
 }

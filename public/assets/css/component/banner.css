@@ -127,3 +127,45 @@
   left: 85rem;
   z-index: 3;
 }
+
+/* Banner Client */
+
+.banner.client {
+  padding: 12rem 0 27.5rem;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../../image/bg-client.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner.client .client-content {
+  max-width: 67.6rem;
+  position: relative;
+  z-index: 1;
+  color: var(--white-cl);
+}
+
+.banner.client .client-content h2,
+.banner.client .client-content h4 {
+  margin-bottom: 0;
+}
+
+.banner.client .client-content h4 {
+  font-family: hl;
+  margin-top: 1.2rem;
+}
+
+.banner.client .bg-circle {
+  position: absolute;
+  bottom: -34.5rem;
+  right: -34.5rem;
+}
+
+.banner.client .circle-disc-blue {
+  position: absolute;
+  top: 7rem;
+  left: 23.1rem;
+  z-index: 0;
+}
