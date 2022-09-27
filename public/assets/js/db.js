@@ -44,10 +44,10 @@ const listTitlePage = [
     link: "https://bossstack.com.vn/client",
   },
   {
-    titlePage: "Khách hàng BossStack",
+    titlePage: "Công ty nút áo Tôn Văn",
     description:
-      "Lý do các công ty chọn giải pháp công nghệ của BossStack trong quản lý tài chính và vận hành doanh nghiệp",
-    link: "https://bossstack.com.vn/clientDetail",
+      "Công ty TNHH Nút áo Tôn Văn là doanh nghiệp chuyên sản xuất, gia công nút áo, đồ mỹ nghệ gia dụng bằng vỏ ốc, sò, gỗ, đá, kim loại. Công ty có nhà xưởng rộng tới 10.000 m2 và hơn 120 công nhân lành nghề.",
+    link: "https://bossstack.com.vn/client-detail",
   },
   {
     titlePage: "Liên hệ",

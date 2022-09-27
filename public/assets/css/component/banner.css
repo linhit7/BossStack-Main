@@ -153,8 +153,10 @@
 }
 
 .banner.client .client-content h4 {
+  max-width: 57.3rem;
   font-family: hl;
   margin-top: 1.2rem;
+  line-height: 3.6rem;
 }
 
 .banner.client .bg-circle {
