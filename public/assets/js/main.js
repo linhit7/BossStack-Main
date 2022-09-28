@@ -25,6 +25,27 @@ listTitlePage.map((element) => {
 
 // });
 
+let selectMenuItem = document.querySelectorAll(".menu-item");
+selectMenuItem.forEach((element, index) => {
+  let selectMenuChild = element.querySelector(".menu-child");
+
+  if (selectMenuChild) {
+    selectMenuChild.style.visibility = "hidden";
+    element.addEventListener("click", function (e) {
+      e.preventDefault();
+      console.log(index);
+      e.currentTarget.classList.toggle("checked");
+      if (element.classList.contains("checked")) {
+        selectMenuChild.style.visibility = "visible";
+      } else {
+        setTimeout(() => {
+          selectMenuChild.style.visibility = "hidden";
+        }, 1100);
+      }
+    });
+  }
+});
+
 let filePath = document.querySelector("#cv");
 let selectLabelUpload = document.querySelector(".label-icon");
 let selectCvFile = document.querySelector(".cv-file");

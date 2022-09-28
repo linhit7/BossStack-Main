@@ -11,12 +11,25 @@ header .menu {
   column-gap: 3.1rem;
 }
 
+header .menu-item {
+  position: relative;
+}
+
 header .menu-link {
   line-height: 3.4rem;
   color: var(--gray-cl-7);
   display: flex;
   align-items: center;
   column-gap: 0.6rem;
+}
+
+header .menu-link img {
+  transform: rotate(0);
+  transition: transform 0.5s ease 0s;
+}
+
+header .menu-item.checked .menu-link img {
+  transform: rotate(180deg);
 }
 
 header .menu-item .btn {
@@ -35,4 +48,37 @@ header .menu-item .btn.btn-primary:hover {
   --cl: var(--white-cl);
   --border-cl: transparent;
   --bg-cl: var(--primary-cl);
+}
+
+header .menu-child {
+  width: 27rem;
+  padding: 0 3rem;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1;
+  border: 1px solid var(--gray-cl-3);
+  border-radius: 0.6rem;
+  background-color: var(--white-cl);
+  opacity: 0;
+}
+
+header .menu-item:not(.checked) .menu-child {
+  opacity: 0;
+  animation: fadeOut;
+  animation-duration: 1s;
+}
+
+header .menu-item.checked .menu-child {
+  opacity: 1;
+  animation: fadeInUp;
+  animation-duration: 1s;
+}
+
+header .menu-child__item {
+  padding: 1rem 0;
+}
+
+header .menu-child__item a:hover {
+  color: var(--second-cl);
 }

@@ -71,3 +71,42 @@
   display: flex;
   justify-content: center;
 }
+
+.section-parameter .wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.parameter-item {
+  display: flex;
+  align-items: center;
+  row-gap: 1.2rem;
+  flex-direction: column;
+  padding: 5.7rem 10rem;
+  background-color: var(--gray-cl-1);
+}
+
+.parameter-item .number {
+  display: flex;
+  align-items: center;
+  column-gap: 0.6rem;
+  font-family: mr;
+  font-size: 7.2rem;
+  line-height: 8.5rem;
+  color: var(--second-cl);
+}
+
+.parameter-item .text {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: var(--gray-cl-6);
+}
+
+.section-clientDetail .logo-client {
+  margin-bottom: 2.4rem;
+}
+
+.section-clientDetail .card-advertisement .card-image {
+  max-width: 64.8rem;
+}
