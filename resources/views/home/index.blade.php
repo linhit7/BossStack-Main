@@ -13,6 +13,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Style -->
   <link rel="stylesheet" href="{{ asset('assets/css/reset.css') }}">
@@ -50,6 +51,7 @@
 
   <!-- Bootstrap -->
   <script src="{{ asset('assets/lib/bootstrap/bootstrap.bundle.min.js') }}"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="{{ asset('assets/js/db.js') }}"></script>
   <script src="{{ asset('assets/js/main.js') }}"></script>
 

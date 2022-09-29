@@ -1,3 +1,14 @@
+header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  animation: fadeInDown;
+  animation-duration: 1s;
+  background-color: var(--white-cl);
+}
+
 header .wrap {
   height: 9rem;
   display: flex;
