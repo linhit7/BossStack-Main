@@ -10,13 +10,13 @@
           </a>
           <ul class="menu-child">
             <li class="menu-child__item">
-              <a href="{{ route('loss-control') }}" class="menu-link">Kiểm soát thất thoát</a>
+              <a href="{{ route('loss-control') }}" class="menu-child__link">Kiểm soát thất thoát</a>
             </li>
             <li class="menu-child__item">
-              <a href="{{ route('coaching') }}" class="menu-link">Coaching</a>
+              <a href="{{ route('coaching') }}" class="menu-child__link">Coaching</a>
             </li>
             <li class="menu-child__item">
-              <a href="{{ route('decision-support') }}" class="menu-link">Hỗ trợ ra quyết định</a>
+              <a href="{{ route('decision-support') }}" class="menu-child__link">Hỗ trợ ra quyết định</a>
             </li>
           </ul>
         </li>
@@ -28,13 +28,13 @@
           </a>
           <ul class="menu-child">
             <li class="menu-child__item">
-              <a href="{{ route('about-us') }}" class="menu-link">Về BossStack</a>
+              <a href="{{ route('about-us') }}" class="menu-child__link">Về BossStack</a>
             </li>
             <li class="menu-child__item">
-              <a href="{{ route('recruitment') }}" class="menu-link">Tuyển dụng</a>
+              <a href="{{ route('recruitment') }}" class="menu-child__link">Tuyển dụng</a>
             </li>
             <li class="menu-child__item">
-              <a href="{{ route('contact') }}" class="menu-link">Liên hệ</a>
+              <a href="{{ route('contact') }}" class="menu-child__link">Liên hệ</a>
             </li>
           </ul>
         </li>
@@ -46,10 +46,10 @@
           </a>
           <ul class="menu-child">
             <li class="menu-child__item">
-              <a href="#" class="menu-link">Blog</a>
+              <a href="#" class="menu-child__link">Blog</a>
             </li>
             <li class="menu-child__item">
-              <a href="{{ route('client') }}" class="menu-link">Khách hàng</a>
+              <a href="{{ route('client') }}" class="menu-child__link">Khách hàng</a>
             </li>
           </ul>
         </li>

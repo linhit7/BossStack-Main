@@ -51,11 +51,11 @@
       <div class="container">
         <div class="advertise-wrap">
           <div class="advertise-content">
-            <h3>Tư vấn chuyển đổi số đem lại <span>lợi nhuận tức thì</span> và xây dựng kế hoạch <span>gia tăng lợi nhuận lâu dài.</span></h3>
-            <a href="#" class="btn btn-primary">Liên hệ</a>
+            <h3 data-aos="fade-right" data-aos-delay="200" data-aos-duration="2000">Tư vấn chuyển đổi số đem lại <span>lợi nhuận tức thì</span> và xây dựng kế hoạch <span>gia tăng lợi nhuận lâu dài.</span></h3>
+            <a href="#" class="btn btn-primary" data-aos="fade-right" data-aos-delay="1500" data-aos-duration="2000">Liên hệ</a>
           </div>
           
-          <img class="bg-advertise-img" src="{{ asset('image/bg-advertise-img.png') }}" alt="">
+          <img class="bg-advertise-img" src="{{ asset('image/bg-advertise-img.png') }}" alt=""  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2000">
         </div>
       </div>
     </section>

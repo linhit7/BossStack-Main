@@ -37,14 +37,20 @@ listTitlePage.map((element) => {
 
 // });
 
-let selectMenuItem = document.querySelectorAll(".menu-item");
-selectMenuItem.forEach((element, index, arr) => {
+let selectHeader = document.getElementsByTagName("header");
+let selectMenuItem = selectHeader[0].querySelectorAll(".menu-item");
+selectMenuItem.forEach((element, index) => {
   let selectMenuChild = element.querySelector(".menu-child");
-
   if (selectMenuChild) {
+    let selectLink = element.querySelectorAll(".menu-link");
+    selectLink.forEach((element) => {
+      if (element.getAttribute("href") === "#") {
+        element.setAttribute("style", "pointer-events: none;");
+      }
+    });
     selectMenuChild.style.visibility = "hidden";
     element.addEventListener("click", function (e) {
-      e.preventDefault();
+      // element.classList.remove("checked");
       e.currentTarget.classList.toggle("checked");
       if (element.classList.contains("checked")) {
         selectMenuChild.style.visibility = "visible";
