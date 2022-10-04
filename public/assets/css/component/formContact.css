@@ -41,3 +41,10 @@
 .form-contact .btn-send {
   margin-top: 1.6rem;
 }
+
+@media (max-width: 575.98px) {
+  .form-contact .form-group {
+    grid-template-columns: 1fr;
+    column-gap: normal;
+  }
+}

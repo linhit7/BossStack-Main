@@ -92,3 +92,11 @@
 .line.--bottom {
   bottom: 1.9rem;
 }
+
+@media (max-width: 575.98px) {
+  .bg-trapezium-sm {
+    width: 100%;
+    border-bottom: 6.6rem solid var(--white-cl);
+    border-left: 15rem solid transparent;
+  }
+}

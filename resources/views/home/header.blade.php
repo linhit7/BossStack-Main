@@ -2,6 +2,7 @@
   <div class="container">
     <div class="wrap">
       <a href="{{ route('home') }}" class="logo"><img class="img-fluid" src="{{ asset('image/logo.svg') }}" alt=""></a>
+      
       <ul class="menu">
         <li class="menu-item">
           <a href="#" class="menu-link">
@@ -62,6 +63,10 @@
           <a href="{{ route('contact') }}" class="menu-link btn btn-primary">Liên hệ</a>
         </li>
       </ul>
+
+      <button type="button" class="btn btn-light nav-bars">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
   </div>
 </header>

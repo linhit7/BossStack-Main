@@ -54,3 +54,18 @@
   font-size: 1.6rem;
   text-decoration: underline;
 }
+
+@media (max-width: 575.98px) {
+  .card-list {
+    flex-direction: column;
+  }
+
+  .card-list .card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-list .card:last-child {
+    margin-bottom: 0;
+  }
+}

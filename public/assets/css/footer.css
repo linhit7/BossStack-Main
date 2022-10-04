@@ -51,3 +51,18 @@ footer .footer-title {
 .footer-item .menu-link {
   color: var(--gray-cl-6);
 }
+
+@media (max-width: 575.98px) {
+  footer .wrap {
+    flex-direction: column;
+  }
+
+  footer .footer-item {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  footer .footer-item:last-child {
+    margin-bottom: 0;
+  }
+}
