@@ -7,12 +7,12 @@
     <section class="section section-home section-feature overflow-hidden pt-96">
       <div class="container">
         <div class="feature-wrap">
-          <h3 class="section-title text-center" data-aos="fade" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <h3 class="section-title text-center" data-aos="fade" data-aos-duration="1000">
             Tính năng của BossStack
           </h3>
           
           <div class="card-list home">
-            <div class="card" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+            <div class="card" data-aos="fade-up" data-aos-duration="1000">
               <img src="{{ asset('image/icon-bs-1.svg') }}" class="card-img-top">
               <div class="card-body">
                 <h4 class="card-title">Kiểm soát thất thoát</h4>
@@ -21,7 +21,7 @@
               </div>
             </div>
 
-            <div class="card" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">
+            <div class="card" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
               <img src="{{ asset('image/icon-bs-2.svg') }}" class="card-img-top">
               <div class="card-body">
                 <h4 class="card-title">Hỗ trợ ra quyết định</h4>
@@ -30,7 +30,7 @@
               </div>
             </div>
 
-            <div class="card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
+            <div class="card" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000">
               <img src="{{ asset('image/icon-bs-3.svg') }}" class="card-img-top">
               <div class="card-body">
                 <h4 class="card-title">Coaching</h4>
@@ -46,17 +46,17 @@
     </section>
 
     <section class="section section-home section-advertise section-second-cl">
-      <div class="bg-trapezium-xl"></div>
-
       <div class="container">
         <div class="advertise-wrap">
           <div class="advertise-content">
             <h3 data-aos="fade-right" data-aos-delay="200" data-aos-duration="2000">Tư vấn chuyển đổi số đem lại <span>lợi nhuận tức thì</span> và xây dựng kế hoạch <span>gia tăng lợi nhuận lâu dài.</span></h3>
             <a href="#" class="btn btn-primary" data-aos="fade-right" data-aos-delay="1500" data-aos-duration="2000">Liên hệ</a>
           </div>
-          
-          <img class="bg-advertise-img" src="{{ asset('image/bg-advertise-img.png') }}" alt=""  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2000">
         </div>
+      </div>
+      <div class="advertise-right">
+        <div class="bg-trapezium-xl"></div>
+        <img class="bg-advertise-img img-fluid" src="{{ asset('image/bg-advertise-img.png') }}" alt=""  data-aos="fade" data-aos-delay="1000" data-aos-duration="2000">
       </div>
     </section>
 

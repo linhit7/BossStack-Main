@@ -92,6 +92,17 @@ selectNavBars.addEventListener("click", function (e) {
   }
 });
 
+let selectAdvertiseHome = document.querySelector(".section-advertise");
+let selectAdvertiseRight =
+  selectAdvertiseHome.querySelector(".advertise-right");
+let selectTrapezium = selectAdvertiseRight.querySelector(".bg-trapezium-xl");
+if (window.outerWidth < 576) {
+  let heightAdvertise = selectAdvertiseHome.offsetHeight + window.outerWidth;
+  selectAdvertiseHome.style.height = `${heightAdvertise}px`;
+  selectAdvertiseRight.style.height = `${window.outerWidth}px`;
+  selectTrapezium.style.borderBottomWidth = `${window.outerWidth}px`;
+}
+
 let filePath = document.querySelector("#cv");
 let selectLabelUpload = document.querySelector(".label-icon");
 let selectCvFile = document.querySelector(".cv-file");

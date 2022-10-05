@@ -69,7 +69,7 @@ header .nav-bars {
   display: none;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 992px) {
   header .menu-child {
     width: 27rem;
     padding: 0 3rem;

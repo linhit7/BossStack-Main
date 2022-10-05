@@ -31,3 +31,14 @@
 .card-advertisement .card-image {
   max-width: 46.5rem;
 }
+
+@media (max-width: 575.98px) {
+  .card-advertisement,
+  .card-advertisement.reverse {
+    flex-direction: column;
+  }
+
+  .card-advertisement h3 {
+    margin-bottom: 1rem;
+  }
+}

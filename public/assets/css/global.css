@@ -63,17 +63,24 @@ a {
   position: relative;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 1199.98px) {
+  body {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
   h1 {
     font-size: 4rem;
   }
 
   h2 {
     font-size: 3.5rem;
+    line-height: 6rem;
   }
 
   h3 {
     font-size: 3rem;
+    line-height: 5rem;
   }
 
   h4 {
