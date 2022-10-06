@@ -7,6 +7,7 @@ header.fixed {
   animation: fadeInDown;
   animation-duration: 1s;
   background-color: var(--white-cl);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 header .wrap {
@@ -107,7 +108,7 @@ header .nav-bars {
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 991.98px) {
   header .wrap {
     height: 7rem;
   }

@@ -142,7 +142,7 @@
     <section class="section section-home section-contact pb-96">
       <div class="container">
         <div class="benefit-wrap">
-          <h3 class="section-title text-center" data-aos="fade-down">Liên hệ với chúng tôi</h3>
+          <h3 class="section-title text-center">Liên hệ với chúng tôi</h3>
 
           @include('home.component.formContact')
         </div>

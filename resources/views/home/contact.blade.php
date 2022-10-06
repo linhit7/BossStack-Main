@@ -8,7 +8,7 @@
       <div class="container">
         <div class="wrap">
           <div class="row">
-            <div class="col-12 col-xl-6 contact-item">
+            <div class="col-12 col-lg-6 mb-sm-5 contact-item">
               <h3>Liên hệ tư vấn</h3>
               <p>Chúng tôi sẽ giúp bạn giải đáp các thắc mắc về:</p>
               <p>Tìm ra giải pháp thích hợp với mô hình kinh doanh của bạn</p>
@@ -26,7 +26,7 @@
                 info@bossstack.vn
               </p>
             </div>
-            <div class="col-12 col-xl-6 contact-item">
+            <div class="col-12 col-lg-6 contact-item">
               <a href="{{ route('home') }}" class="logo"><img class="img-fluid" src="{{ asset('image/logo.svg') }}" alt=""></a>
               <h4>Liên hệ với chúng tôi</h4>
               @include('home.component.formContact')

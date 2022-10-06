@@ -172,11 +172,21 @@
   z-index: 0;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 1199.98px) {
   /* Banner Home Page */
 
   .banner.home-page {
     padding: 15rem 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /* Banner Home Page */
+
+  .banner.home-page {
     background-position: 20%;
   }
+}
+
+@media (max-width: 575.98px) {
 }

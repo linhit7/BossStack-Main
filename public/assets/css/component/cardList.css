@@ -1,6 +1,8 @@
 .card-list {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 1;
 }
 
 .card-list .card {
@@ -37,7 +39,6 @@
 .card-list .card-title {
   font-family: hm;
   text-align: center;
-  min-height: 5.8rem;
 }
 
 .card-list:not(.home) .card-title {
@@ -55,7 +56,17 @@
   text-decoration: underline;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 1399.98px) {
+  .card-list .card {
+    width: calc((100% / 3) - 5px);
+  }
+
+  .card-list .card-text {
+    min-height: 9rem;
+  }
+}
+
+@media (max-width: 991.98px) {
   .card-list {
     flex-direction: column;
   }
