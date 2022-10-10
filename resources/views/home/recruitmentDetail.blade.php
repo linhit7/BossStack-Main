@@ -123,3 +123,20 @@
     </div>
   </div>
 @endsection
+
+@section('scripts')
+  <script>
+    let filePath = document.querySelector("#cv");
+    let selectLabelUpload = document.querySelector(".label-icon");
+    let selectCvFile = document.querySelector(".cv-file");
+    selectCvFile.style.display = "none";
+    filePath.addEventListener("change", function demo() {
+      let nameFile = filePath.value.slice(12);
+      console.log("demo ~ nameFile", nameFile);
+      if (nameFile) {
+        selectCvFile.style.display = "block";
+        selectCvFile.innerHTML = nameFile;
+      }
+    });
+  </script>
+@endsection

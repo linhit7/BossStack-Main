@@ -40,13 +40,6 @@
   --bg-cl: var(--primary-cl);
 }
 
-.section-recruitment-bs .recruitment-bs-img {
-  position: absolute;
-  top: 50%;
-  right: -12.5rem;
-  transform: translateY(-50%);
-}
-
 .section-position-hiring h3 {
   text-align: center;
   margin-bottom: 4.8rem;
@@ -269,4 +262,118 @@
   --cl: var(--white-cl);
   --border-cl: transparent;
   --bg-cl: var(--primary-cl);
+}
+
+@media (min-width: 1400px) {
+  .section-recruitment-bs .recruitment-bs-img {
+    max-width: 60%;
+    right: -4rem;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .section-recruitment-bs {
+    padding: 4.8rem 0;
+  }
+
+  .recruitment-bs-content {
+    max-width: 48%;
+  }
+
+  .section-recruitment-bs .recruitment-bs-img {
+    max-width: 50%;
+    right: 0;
+  }
+
+  .section-position-hiring .recruitment-info {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-recruitment-bs .recruitment-bs-img {
+    max-width: 50%;
+    right: -2rem;
+  }
+
+  .recruitment-item {
+    flex-wrap: wrap;
+  }
+
+  .recruitment-item .logo {
+    max-width: 30%;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-recruitmentDetail .work-content {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-recruitmentDetail .work-content .btn {
+    --w-btn: 18rem;
+    --h-btn: 4rem;
+    --fs-btn: 1.8rem;
+  }
+
+  #applyModal .modal-dialog {
+    max-width: 85%;
+  }
+
+  #applyModal .form-apply {
+    width: 100%;
+  }
+
+  #applyModal .modal-footer .btn {
+    --w-btn: 13rem;
+    --h-btn: 4rem;
+    --fs-btn: 1.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-recruitment-bs .recruitment-bs-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-recruitment-bs .wrap {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .recruitment-bs-content,
+  .section-recruitment-bs .recruitment-bs-img {
+    max-width: 100%;
+  }
+
+  .section-recruitment-bs .recruitment-bs-img {
+    right: auto;
+  }
+
+  .section-position-hiring .recruitment-info {
+    margin-bottom: 1.5rem;
+  }
+
+  #applyModal .modal-footer .btn {
+    --w-btn: 100%;
+    --h-btn: 4rem;
+    --fs-btn: 1.8rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section-position-hiring .recruitment-item {
+    padding: 2rem;
+  }
+
+  #applyModal .modal-dialog {
+    max-width: 100%;
+  }
+
+  #applyModal .form-apply .form-group {
+    grid-template-columns: 1fr;
+  }
 }

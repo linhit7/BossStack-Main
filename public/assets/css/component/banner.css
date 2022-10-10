@@ -140,6 +140,10 @@
   background-size: cover;
 }
 
+.banner.client .client-wrap {
+  position: relative;
+}
+
 .banner.client .client-content {
   max-width: 67.6rem;
   position: relative;
@@ -167,8 +171,8 @@
 
 .banner.client .circle-disc-blue {
   position: absolute;
-  top: 7rem;
-  left: 23.1rem;
+  top: -5.5rem;
+  left: -7.5rem;
   z-index: 0;
 }
 
@@ -188,5 +192,34 @@
   }
 }
 
+@media (max-width: 767.98px) {
+  /* Banner Client */
+
+  .banner.client {
+    padding: 12rem 0;
+  }
+
+  .banner.client .circle-disc-blue {
+    width: 15%;
+    top: -3rem;
+    left: -5.2rem;
+  }
+}
+
 @media (max-width: 575.98px) {
+  /* Banner Default */
+
+  .banner.default {
+    padding: 3rem 0;
+  }
+
+  /* Banner Client */
+
+  .banner.client {
+    padding: 6rem 0;
+  }
+
+  .banner.client .circle-disc-blue {
+    display: none;
+  }
 }

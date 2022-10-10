@@ -53,7 +53,7 @@ selectMenuItem.forEach((element, index) => {
     }
     element.addEventListener("click", function (e) {
       e.currentTarget.classList.toggle("checked");
-      if (window.outerWidth >= 1400) {
+      if (window.outerWidth >= 992) {
         if (element.classList.contains("checked")) {
           selectMenuChild.classList.add("visible");
           selectMenuChild.classList.remove("hidden");
@@ -110,15 +110,3 @@ if (window.outerWidth < 576) {
     0.5 - heightAdvertiseImg / 3
   )}px`;
 }
-
-let filePath = document.querySelector("#cv");
-let selectLabelUpload = document.querySelector(".label-icon");
-let selectCvFile = document.querySelector(".cv-file");
-selectCvFile.style.display = "none";
-filePath.addEventListener("change", function demo() {
-  let nameFile = filePath.value.slice(12);
-  if (nameFile) {
-    selectCvFile.style.display = "block";
-    selectCvFile.innerHTML = nameFile;
-  }
-});

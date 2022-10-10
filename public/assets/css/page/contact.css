@@ -17,3 +17,9 @@
 .main-contact .contact-item:last-child h4 {
   margin-bottom: 1.6rem;
 }
+
+@media (max-width: 991.98px) {
+  .contact-item:first-child {
+    margin-bottom: 3rem;
+  }
+}
