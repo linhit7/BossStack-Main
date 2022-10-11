@@ -252,3 +252,259 @@
   --border-cl: transparent;
   --bg-cl: var(--primary-cl);
 }
+
+@media (max-width: 1399.98px) {
+  .about-general .bg-circle:first-child {
+    width: 58rem;
+    top: 49rem;
+    right: -34rem;
+  }
+
+  .about-general .bg-circle:last-child {
+    display: none;
+  }
+
+  .section-mission .rhombus-img {
+    top: 17rem;
+    left: -8rem;
+  }
+
+  .section-mission .wrap {
+    position: relative;
+    z-index: 3;
+  }
+
+  .mission-content h2 {
+    font-size: 5rem;
+  }
+
+  .mission-image {
+    width: 36%;
+  }
+
+  .card-leadership .card-item {
+    max-width: calc((100% / 3) - 1rem);
+  }
+
+  .section-about-leadership .circle-disc {
+    right: 7.8rem;
+    bottom: -5.2rem;
+    width: 15rem;
+  }
+
+  .section-about-history .wrap {
+    height: 130rem;
+  }
+
+  .section-about-history .history-item:first-child {
+    top: 16rem;
+    left: 42rem;
+  }
+
+  .section-about-history .history-item:nth-child(2) {
+    top: 41rem;
+    left: 49rem;
+  }
+
+  .section-about-history .history-item:nth-child(3) {
+    top: 65rem;
+    left: 38rem;
+  }
+
+  .section-about-history .history-item:last-child {
+    top: 79rem;
+    left: 11rem;
+  }
+
+  .section-about-history .history-item .icon {
+    max-width: 12rem;
+  }
+
+  .section-about-history .feature {
+    max-width: 20rem;
+  }
+
+  .section-about-history .history-tree {
+    max-width: 80rem;
+    top: 16rem;
+    left: -33rem;
+  }
+
+  .section-about-history .bg-circle {
+    right: -32rem;
+    bottom: -28rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-mission .rhombus-img {
+    top: 7.3rem;
+    left: -5.3rem;
+    width: 12%;
+  }
+
+  .mission-content .btn {
+    --w-btn: 13rem;
+    --h-btn: 4rem;
+    --fs-btn: 1.8rem;
+  }
+
+  .section-about-history .wrap {
+    height: 120rem;
+  }
+
+  .section-about-history .history-item:first-child {
+    top: 14rem;
+    left: 34rem;
+  }
+
+  .section-about-history .history-item:nth-child(2) {
+    top: 36rem;
+    left: 39rem;
+  }
+
+  .section-about-history .history-item:nth-child(3) {
+    top: 61rem;
+    left: 31rem;
+  }
+
+  .section-about-history .history-item:last-child {
+    top: 82rem;
+    left: 3rem;
+  }
+
+  .section-about-history .feature {
+    max-width: 17rem;
+  }
+
+  .section-about-history .feature h4 {
+    font-size: 2rem;
+    font-family: hb;
+  }
+
+  .section-about-history .feature p {
+    font-size: 1.4rem;
+  }
+
+  .section-about-history .history-tree {
+    max-width: 70rem;
+    top: 16rem;
+    left: -33rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-mission .wrap,
+  .section-about-leadership .card-leadership {
+    flex-wrap: wrap;
+  }
+
+  .section-mission .wrap {
+    flex-direction: column-reverse;
+    justify-content: center;
+    column-gap: normal;
+    row-gap: 3rem;
+  }
+
+  .mission-image {
+    display: none;
+  }
+
+  .section-product .product-list {
+    flex-wrap: wrap;
+    row-gap: 3rem;
+  }
+
+  .section-product .product-item {
+    width: 15rem;
+  }
+
+  .card-leadership .card-item {
+    max-width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .card-leadership .card-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .card-leadership .card-image img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .section-mission .rhombus-img,
+  .section-about-leadership .circle-disc {
+    display: none;
+  }
+
+  .section-about-history .wrap {
+    height: 100rem;
+  }
+
+  .section-about-history .history-item:first-child {
+    top: 11rem;
+    left: 25rem;
+  }
+
+  .section-about-history .history-item:nth-child(2) {
+    top: 29rem;
+    left: 30rem;
+  }
+
+  .section-about-history .history-item:nth-child(3) {
+    top: 48rem;
+    left: 21rem;
+  }
+
+  .section-about-history .history-item:last-child {
+    top: 66rem;
+    left: 1rem;
+  }
+
+  .section-about-history .history-item .icon {
+    max-width: 8.8rem;
+  }
+
+  .section-about-history .feature {
+    max-width: 14rem;
+  }
+
+  .section-about-history .feature h4 {
+    font-size: 1.5rem;
+  }
+
+  .section-about-history .history-tree {
+    max-width: 52rem;
+    top: 16rem;
+    left: -25rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section-about-history .history-item:first-child {
+    top: 7rem;
+    left: 22rem;
+  }
+
+  .section-about-history .history-item:nth-child(2) {
+    top: 25rem;
+    left: 24rem;
+  }
+
+  .section-about-history .history-item:nth-child(3) {
+    top: 40rem;
+    left: 18rem;
+  }
+
+  .section-about-history .history-item:last-child {
+    top: 50rem;
+    left: 3rem;
+  }
+
+  .section-about-history .history-tree {
+    max-width: 40rem;
+    top: 18rem;
+    left: -17rem;
+  }
+}

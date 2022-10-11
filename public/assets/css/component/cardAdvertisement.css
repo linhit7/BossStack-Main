@@ -39,9 +39,17 @@
 }
 
 @media (max-width: 1199.98px) {
+  .card-advertisement {
+    column-gap: 1.5rem;
+  }
+
   .card-advertisement .card-body,
   .card-advertisement .card-image {
     max-width: 42rem;
+  }
+
+  .card-advertisement h3 {
+    font-size: 2.7rem;
   }
 }
 
