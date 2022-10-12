@@ -92,21 +92,38 @@ selectNavBars.addEventListener("click", function (e) {
   }
 });
 
-let selectAdvertiseHome = document.querySelector(".section-advertise");
-let selectAdvertiseRight =
-  selectAdvertiseHome.querySelector(".advertise-right");
-let selectTrapezium = selectAdvertiseRight.querySelector(".bg-trapezium-xl");
-let selectAdvertiseImg =
-  selectAdvertiseRight.querySelector(".bg-advertise-img");
-let heightAdvertiseImg = selectAdvertiseImg.offsetHeight;
-if (window.outerWidth < 576) {
-  let heightAdvertise = selectAdvertiseHome.offsetHeight + window.outerWidth;
-  selectAdvertiseHome.style.height = `${heightAdvertise}px`;
-  selectAdvertiseRight.style.height = `${window.outerWidth}px`;
-  selectTrapezium.style.borderBottomWidth = `${window.outerWidth}px`;
-} else if (window.outerWidth >= 576) {
-  selectAdvertiseImg.style.top = `${Math.abs(0.5 - heightAdvertiseImg / 4)}px`;
-  selectAdvertiseImg.style.right = `${Math.abs(
-    0.5 - heightAdvertiseImg / 3
-  )}px`;
+let selectTrapezium = document.querySelector(".bg-trapezium-xl");
+if (window.location.href === "https://bossstack.com.vn/") {
+  let selectAdvertiseHome = document.querySelector(".section-advertise");
+  let selectAdvertiseRight =
+    selectAdvertiseHome.querySelector(".advertise-right");
+  let selectAdvertiseImg =
+    selectAdvertiseRight.querySelector(".bg-advertise-img");
+  let heightAdvertiseImg = selectAdvertiseImg.offsetHeight;
+  if (window.outerWidth < 576) {
+    let heightAdvertise = selectAdvertiseHome.offsetHeight + window.outerWidth;
+    selectAdvertiseHome.style.height = `${heightAdvertise}px`;
+    selectAdvertiseRight.style.height = `${window.outerWidth}px`;
+    selectTrapezium.style.borderBottomWidth = `${window.outerWidth}px`;
+  } else if (window.outerWidth >= 576) {
+    selectAdvertiseImg.style.top = `${Math.abs(
+      0.5 - heightAdvertiseImg / 3
+    )}px`;
+    selectAdvertiseImg.style.right = `${Math.abs(
+      0.5 - heightAdvertiseImg / 3
+    )}px`;
+  }
+} else {
+  let selectBannerFeature = document.querySelector(".banner.feature");
+  let selectBannerFeatureWrap = document.querySelector(".feature-wrap");
+  let selectBannerImg =
+    selectBannerFeatureWrap.querySelector(".bg-feature-img");
+  let heightBannerImg = selectBannerImg.offsetWidth;
+  let heightBanner = selectBannerFeature.offsetHeight + window.outerWidth;
+
+  if (window.outerWidth < 576) {
+    selectBannerFeature.style.height = `${heightBanner}px`;
+    selectTrapezium.style.borderBottomWidth = `${window.outerWidth}px`;
+    selectBannerImg.style.left = `${Math.abs(0.5 - heightBannerImg / 12)}px`;
+  }
 }
