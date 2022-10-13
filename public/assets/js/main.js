@@ -93,6 +93,7 @@ selectNavBars.addEventListener("click", function (e) {
 });
 
 let selectTrapezium = document.querySelector(".bg-trapezium-xl");
+
 if (window.location.href === "https://bossstack.com.vn/") {
   let selectAdvertiseHome = document.querySelector(".section-advertise");
   let selectAdvertiseRight =
@@ -112,18 +113,5 @@ if (window.location.href === "https://bossstack.com.vn/") {
     selectAdvertiseImg.style.right = `${Math.abs(
       0.5 - heightAdvertiseImg / 3
     )}px`;
-  }
-} else {
-  let selectBannerFeature = document.querySelector(".banner.feature");
-  let selectBannerFeatureWrap = document.querySelector(".feature-wrap");
-  let selectBannerImg =
-    selectBannerFeatureWrap.querySelector(".bg-feature-img");
-  let heightBannerImg = selectBannerImg.offsetWidth;
-  let heightBanner = selectBannerFeature.offsetHeight + window.outerWidth;
-
-  if (window.outerWidth < 576) {
-    selectBannerFeature.style.height = `${heightBanner}px`;
-    selectTrapezium.style.borderBottomWidth = `${window.outerWidth}px`;
-    selectBannerImg.style.left = `${Math.abs(0.5 - heightBannerImg / 12)}px`;
   }
 }
