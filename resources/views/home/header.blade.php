@@ -49,7 +49,7 @@
             <li class="menu-child__item">
               <a href="#" class="menu-child__link">Blog</a>
             </li>
-            <li class="menu-child__item">
+            <li class="menu-child__item d-none">
               <a href="{{ route('client') }}" class="menu-child__link">Khách hàng</a>
             </li>
           </ul>

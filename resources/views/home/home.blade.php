@@ -49,14 +49,14 @@
       <div class="container">
         <div class="advertise-wrap">
           <div class="advertise-content">
-            <h3 data-aos="fade-right" data-aos-delay="200" data-aos-duration="2000">Tư vấn chuyển đổi số đem lại <span>lợi nhuận tức thì</span> và xây dựng kế hoạch <span>gia tăng lợi nhuận lâu dài.</span></h3>
-            <a href="#" class="btn btn-primary" data-aos="fade-right" data-aos-delay="1500" data-aos-duration="2000">Liên hệ</a>
+            <h3 data-aos="fade-right" data-aos-duration="1000">Tư vấn chuyển đổi số đem lại <span>lợi nhuận tức thì</span> và xây dựng kế hoạch <span>gia tăng lợi nhuận lâu dài.</span></h3>
+            <a href="#" class="btn btn-primary" data-aos="fade-right" data-aos-duration="1000">Liên hệ</a>
           </div>
         </div>
       </div>
       <div class="advertise-right">
         <div class="bg-trapezium-xl"></div>
-        <img class="bg-advertise-img img-fluid" src="{{ asset('image/bg-advertise-img.png') }}" alt=""  data-aos="fade" data-aos-delay="1000" data-aos-duration="2000">
+        <img class="bg-advertise-img img-fluid" src="{{ asset('image/bg-advertise-img.png') }}" alt=""  data-aos="fade" data-aos-duration="1000">
       </div>
     </section>
 
@@ -76,25 +76,25 @@
                 </span>
                 <span class="text">Doanh nghiệp vừa và nhỏ, Start - up</span>
               </div>
-              <div class="roadmap-item" data-aos="fade-right" data-aos-delay="200" data-aos-duration="2000">
+              <div class="roadmap-item" data-aos="fade-right" data-aos-duration="1000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-roadmap-1.svg') }}" alt="">
                 </span>
                 <span class="text">Công cụ quản lý vận hành hiệu quả cho doanh nghiệp</span>
               </div>
-              <div class="roadmap-item" data-aos="fade-right" data-aos-delay="400" data-aos-duration="2000">
+              <div class="roadmap-item" data-aos="fade-right" data-aos-duration="1000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-roadmap-2.svg') }}" alt="">
                 </span>
                 <span class="text">Xác thực tính khả thi của dự án</span>
               </div>
-              <div class="roadmap-item" data-aos="fade-right" data-aos-delay="600" data-aos-duration="2000">
+              <div class="roadmap-item" data-aos="fade-right" data-aos-duration="1000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-roadmap-3.svg') }}" alt="">
                 </span>
                 <span class="text">Kiểm soát tốt dòng tiền chủ sở hữu</span>
               </div>
-              <div class="roadmap-item" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000">
+              <div class="roadmap-item" data-aos="fade-right" data-aos-duration="1000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-roadmap-4.svg') }}" alt="">
                 </span>
@@ -109,25 +109,25 @@
                 </span>
                 <span class="text">Doanh nghiệp lớn</span>
               </div>
-              <div class="roadmap-item" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2000">
+              <div class="roadmap-item" data-aos="fade-right" data-aos-duration="1000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-roadmap-6.svg') }}" alt="">
                 </span>
                 <span class="text">Gia tăng chất lượng dữ liệu</span>
               </div>
-              <div class="roadmap-item" data-aos="fade-right" data-aos-delay="1200" data-aos-duration="2000">
+              <div class="roadmap-item" data-aos="fade-right" data-aos-duration="1000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-roadmap-7.svg') }}" alt="">
                 </span>
                 <span class="text">Tự động hóa quy trình quản lý để giải phóng chủ doanh nghiệp</span>
               </div>
-              <div class="roadmap-item" data-aos="fade-right" data-aos-delay="1400" data-aos-duration="2000">
+              <div class="roadmap-item" data-aos="fade-right" data-aos-duration="1000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-roadmap-8.svg') }}" alt="">
                 </span>
                 <span class="text">Tối ưu hóa chi phí</span>
               </div>
-              <div class="roadmap-item" data-aos="fade-right" data-aos-delay="1600" data-aos-duration="2000">
+              <div class="roadmap-item" data-aos="fade-right" data-aos-duration="1000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-roadmap-9.svg') }}" alt="">
                 </span>

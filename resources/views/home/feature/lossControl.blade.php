@@ -171,9 +171,10 @@
       let selectBannerFeatureWrap = document.querySelector(".feature-wrap");
 
       let selectBannerImg = selectBannerFeatureWrap.querySelector(".bg-feature-img");
-      selectBannerImg.style.maxWidth = `${selectTrapeziumBanner.offsetWidth}px`
+      selectBannerImg.style.maxWidth = `${selectTrapeziumBanner.offsetWidth * 0.8}px`
       let widthBannerImg = selectBannerImg.offsetWidth;
       let heightBannerImg = selectBannerImg.offsetHeight;
+      let leftBannerImg = widthBannerImg + widthBannerImg * 0.5;
 
       let heightBanner = selectBannerFeature.offsetHeight + window.outerWidth;
 
@@ -190,14 +191,14 @@
           selectTrapeziumBanner.offsetHeight * 0.5 - heightBannerImg * 0.5 - 50
         }px`;
         selectBannerImg.style.left = `${
-          window.outerWidth - widthBannerImg
+          document.querySelector("body").offsetWidth - leftBannerImg
         }px`;
       } else {
         selectBannerImg.style.top = `${
           selectTrapeziumBanner.offsetHeight * 0.5 - heightBannerImg * 0.5 - 100
         }px`;
         selectBannerImg.style.left = `${
-          window.outerWidth - widthBannerImg
+          document.querySelector("body").offsetWidth - leftBannerImg
         }px`;
       }
     }

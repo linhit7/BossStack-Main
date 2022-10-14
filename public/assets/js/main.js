@@ -52,6 +52,7 @@ selectMenuItem.forEach((element, index) => {
       selectMenuChild.classList.add("hidden");
     }
     element.addEventListener("click", function (e) {
+      e.stopPropagation();
       e.currentTarget.classList.toggle("checked");
       if (window.outerWidth >= 992) {
         if (element.classList.contains("checked")) {
@@ -72,6 +73,19 @@ selectMenuItem.forEach((element, index) => {
       }
     });
   }
+});
+
+document.querySelector("body").addEventListener("click", function (e) {
+  selectMenuItem.forEach((element, index) => {
+    let selectMenuChild = element.querySelector(".menu-child");
+    if (element.classList.contains("checked")) {
+      element.classList.remove("checked");
+      setTimeout(() => {
+        selectMenuChild.classList.add("hidden");
+        selectMenuChild.classList.remove("visible");
+      }, 1100);
+    }
+  });
 });
 
 window.addEventListener("scroll", function (e) {
@@ -108,7 +122,7 @@ if (window.location.href === "https://bossstack.com.vn/") {
     selectTrapezium.style.borderBottomWidth = `${window.outerWidth}px`;
   } else if (window.outerWidth >= 576) {
     selectAdvertiseImg.style.top = `${Math.abs(
-      0.5 - heightAdvertiseImg / 3
+      selectTrapezium.offsetHeight * 0.5 - heightAdvertiseImg * 0.5
     )}px`;
     selectAdvertiseImg.style.right = `${Math.abs(
       0.5 - heightAdvertiseImg / 3
