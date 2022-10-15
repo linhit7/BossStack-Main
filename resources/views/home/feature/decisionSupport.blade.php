@@ -131,7 +131,6 @@
       let widthBannerImg = selectBannerImg.offsetWidth;
       let heightBannerImg = selectBannerImg.offsetHeight;
       let leftBannerImg = widthBannerImg + widthBannerImg * 0.5;
-
       let heightBanner = selectBannerFeature.offsetHeight + window.outerWidth;
 
       if (window.outerWidth < 576) {
@@ -147,7 +146,7 @@
           selectTrapeziumBanner.offsetHeight * 0.5 - heightBannerImg * 0.5 - 50
         }px`;
         selectBannerImg.style.left = `${
-          document.querySelector("body").offsetWidth - widthBannerImg
+          document.querySelector("body").offsetWidth - leftBannerImg
         }px`;
       } else {
         selectBannerImg.style.top = `${

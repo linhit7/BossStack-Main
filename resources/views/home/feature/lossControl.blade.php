@@ -175,7 +175,6 @@
       let widthBannerImg = selectBannerImg.offsetWidth;
       let heightBannerImg = selectBannerImg.offsetHeight;
       let leftBannerImg = widthBannerImg + widthBannerImg * 0.5;
-
       let heightBanner = selectBannerFeature.offsetHeight + window.outerWidth;
 
       if (window.outerWidth < 576) {

@@ -75,19 +75,6 @@ selectMenuItem.forEach((element, index) => {
   }
 });
 
-document.querySelector("body").addEventListener("click", function (e) {
-  selectMenuItem.forEach((element, index) => {
-    let selectMenuChild = element.querySelector(".menu-child");
-    if (element.classList.contains("checked")) {
-      element.classList.remove("checked");
-      setTimeout(() => {
-        selectMenuChild.classList.add("hidden");
-        selectMenuChild.classList.remove("visible");
-      }, 1100);
-    }
-  });
-});
-
 window.addEventListener("scroll", function (e) {
   if (e.currentTarget.scrollY > 50) {
     selectHeader[0].classList.add("fixed");
@@ -99,10 +86,30 @@ window.addEventListener("scroll", function (e) {
 let selectMenuMain = selectHeader[0].querySelector(".menu");
 let selectNavBars = selectHeader[0].querySelector(".nav-bars");
 selectNavBars.addEventListener("click", function (e) {
+  e.stopPropagation();
   if (selectMenuMain.classList.contains("active")) {
     selectMenuMain.classList.remove("active");
   } else {
     selectMenuMain.classList.add("active");
+  }
+});
+
+document.querySelector("body").addEventListener("click", function (e) {
+  if (window.outerWidth >= 992) {
+    selectMenuItem.forEach((element, index) => {
+      let selectMenuChild = element.querySelector(".menu-child");
+      if (element.classList.contains("checked")) {
+        element.classList.remove("checked");
+        setTimeout(() => {
+          selectMenuChild.classList.add("hidden");
+          selectMenuChild.classList.remove("visible");
+        }, 1100);
+      }
+    });
+  } else {
+    if (selectMenuMain.classList.contains("active")) {
+      selectMenuMain.classList.remove("active");
+    }
   }
 });
 

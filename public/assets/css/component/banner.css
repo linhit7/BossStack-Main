@@ -232,8 +232,9 @@
   }
 
   .banner.feature .bg-trapezium-xl {
-    --w-bg-trapezium-xl: 60%;
+    --w-bg-trapezium-xl: 50%;
     --border-bt-trapezium: 40rem;
+    --border-l-trapezium: 11rem;
   }
 
   .banner.feature .feature-content {

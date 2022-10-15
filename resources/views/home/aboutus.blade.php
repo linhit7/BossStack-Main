@@ -127,8 +127,9 @@
                     Tu Nguyen
                     <a href="#"><img class="img-fluid" src="{{ asset('image/linkedin.svg') }}" alt=""></a>
                   </h4>
-                  <p class="leadership-des">Giám đốc điều hành V Lotus</p>
+                  <p class="leadership-des">Cố vấn Tài chính</p>
                   <div class="leadership-content">
+                    <p>Giám đốc điều hành V Lotus</p>
                     <p>Chuỗi nhà hàng cao cấp và nổi tiếng trong ngành F&B như:</p>
                     <ul>
                       <li>Ussina Sky 77</li>
