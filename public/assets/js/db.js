@@ -20,7 +20,7 @@ const listTitlePage = [
     imageLink: "https://bossstack.com.vn/image/banner-feature-1.png",
   },
   {
-    titlePage: "Phần mềm hỗ trợ quyết định",
+    titlePage: "Phần mềm Hỗ trợ quyết định",
     description:
       "Tự đông hóa quy trình đánh giá và xây dựng kế hoach tài chính cho doanh nghiệp.",
     link: "https://bossstack.com.vn/decision-support",

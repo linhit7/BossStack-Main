@@ -109,10 +109,10 @@
                   <div class="leadership-content">
                     <p>Hơn 15 năm kinh nghiệm về tài chính, đầu tư và 10 năm kinh nghiệm trong ngành ngân hàng</p>
                     <ul>
-                      <li>2018 - Hiện tại: CEO, Founder Fiinves</li>
+                      <li>2015 - Hiện tại: CEO, Founder Fiinves</li>
                       <li>2015 - HIện tại: CEO, Founder Lamstech</li>
                       <li>2014 - Hiện tại: CEO, Founder Rbooks</li>
-                      <li>2012 - 2017: Phó giám đốc, giám đốc chi nhánh ngân hàng.</li>
+                      <li>2012 - 2017: Giám đốc PGD, Phó Giám đốc Chi nhánh Ngân hàng.</li>
                     </ul>
                   </div>
                 </div>

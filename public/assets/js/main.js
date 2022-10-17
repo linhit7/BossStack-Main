@@ -64,7 +64,7 @@ selectMenuItem.forEach((element, index) => {
             selectMenuChild.classList.remove("visible");
           }, 1100);
         }
-      } else if (window.outerWidth < 991) {
+      } else if (window.outerWidth < 992) {
         if (element.classList.contains("checked")) {
           selectMenuChild.style.maxHeight = selectMenuChild.scrollHeight + "px";
         } else {
@@ -114,7 +114,6 @@ document.querySelector("body").addEventListener("click", function (e) {
 });
 
 let selectTrapezium = document.querySelector(".bg-trapezium-xl");
-
 if (window.location.href === "https://bossstack.com.vn/") {
   let selectAdvertiseHome = document.querySelector(".section-advertise");
   let selectAdvertiseRight =
