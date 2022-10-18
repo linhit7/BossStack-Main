@@ -93,6 +93,37 @@
   bottom: 1.9rem;
 }
 
+/* Back to top */
+
+.backtotop {
+  position: fixed;
+  z-index: 99;
+  right: 5rem;
+  bottom: 5rem;
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.6rem;
+  border: 1px solid var(--second-cl);
+  background-color: var(--white-cl);
+  opacity: 0;
+  animation: fadeOutDown;
+  animation-duration: 2s;
+}
+
+.backtotop.show {
+  opacity: 1;
+  animation: fadeInUp;
+  animation-duration: 2s;
+}
+
+.backtotop i {
+  color: var(--second-cl);
+}
+
 @media (max-width: 1399.98px) {
   /* Logo */
 

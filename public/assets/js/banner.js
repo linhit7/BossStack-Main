@@ -11,6 +11,7 @@ window.onload = function () {
   }px`;
   let widthBannerImg = selectBannerImg.offsetWidth;
   let heightBannerImg = selectBannerImg.offsetHeight;
+  let leftBannerImg = widthBannerImg + widthBannerImg * 0.5;
   let rightBannerImg =
     (window.outerWidth - selectBannerContainer.offsetWidth) / 2;
   let heightBanner = selectBannerFeature.offsetHeight + window.outerWidth;
@@ -31,6 +32,8 @@ window.onload = function () {
     selectBannerImg.style.top = `${
       selectTrapeziumBanner.offsetHeight * 0.5 - heightBannerImg * 0.5 - 100
     }px`;
-    selectBannerImg.style.right = `${0 - rightBannerImg}px`;
+    selectBannerImg.style.left = `${
+      document.querySelector("body").offsetWidth - leftBannerImg
+    }px`;
   }
 };

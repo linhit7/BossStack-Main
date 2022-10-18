@@ -135,3 +135,17 @@ if (window.location.href === "https://bossstack.com.vn/") {
     )}px`;
   }
 }
+
+window.addEventListener("scroll", function (e) {
+  if (e.currentTarget.pageYOffset > 200) {
+    document.querySelector(".backtotop").classList.add("show");
+  } else {
+    document.querySelector(".backtotop").classList.remove("show");
+  }
+});
+
+document.querySelector(".backtotop").addEventListener("click", function (e) {
+  e.preventDefault();
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});

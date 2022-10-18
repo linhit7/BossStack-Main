@@ -21,6 +21,7 @@ body {
   font-size: 2rem;
   line-height: 3rem;
   color: var(--gray-cl-7);
+  position: relative;
 }
 
 h1,

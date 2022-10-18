@@ -25,42 +25,42 @@
           <div class="wrap">
             <h3>Sản phẩm ngành</h3>
             <ul class="product-list">
-              <li class="product-item">
+              <li class="product-item" data-aos="fade-down" data-aos-duration="1500">
                 <span class="icon">
                   <img src="{{ asset('image/icon-product-1.svg') }}" alt="">
                 </span>
                 <span class="text">Nông sản</span>
               </li>
 
-              <li class="product-item">
+              <li class="product-item" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="500">
                 <span class="icon">
                   <img src="{{ asset('image/icon-product-2.svg') }}" alt="">
                 </span>
                 <span class="text">Logistic</span>
               </li>
 
-              <li class="product-item">
+              <li class="product-item" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-product-3.svg') }}" alt="">
                 </span>
                 <span class="text">Bất động sản</span>
               </li>
 
-              <li class="product-item">
+              <li class="product-item" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="1500">
                 <span class="icon">
                   <img src="{{ asset('image/icon-product-4.svg') }}" alt="">
                 </span>
                 <span class="text">Xây dựng</span>
               </li>
 
-              <li class="product-item">
+              <li class="product-item" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="2000">
                 <span class="icon">
                   <img src="{{ asset('image/icon-product-5.svg') }}" alt="">
                 </span>
                 <span class="text">Năng lượng</span>
               </li>
 
-              <li class="product-item">
+              <li class="product-item" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="2500">
                 <span class="icon">
                   <img src="{{ asset('image/icon-product-6.svg') }}" alt="">
                 </span>
@@ -74,16 +74,16 @@
     </div>
 
     <div class="company-general">
-      <div class="section section-about section-about-company">
+      <div class="section section-about section-about-company overflow-hidden">
         <div class="container">
           <div class="wrap">
             <div class="card-advertisement">
-              <div class="card-body">
+              <div class="card-body" data-aos="fade-right" data-aos-duration="1000">
                 <h3>Về BossStack</h3>
                 <p>BossStack ra đời vào năm 2015 với mục đích đưa công nghệ vào doanh nghiệp, nhằm hỗ trợ thực thi dự án, kiểm soát thất thoát và giải quyết các vấn đề chuyên sâu về tài chính.</p>
                 <p>Áp dụng BossStack, hệ thống doanh nghiệp sẽ được vận hành một cách tự động hiệu quả, đồng thời giúp chủ doanh nghiệp thực sự <span class="highlight">"giải phóng"</span> ra khỏi các <span class="highlight">"business"</span> của mình.</p>
               </div>
-              <div class="card-image">
+              <div class="card-image" data-aos="fade-left" data-aos-duration="1000">
                 <img class="img-fluid" src="{{ asset('image/img-advertisement.png') }}" alt="">
               </div>
             </div>
@@ -96,7 +96,7 @@
           <div class="wrap">
             <h3>Thành phần Ban Lãnh Đạo</h3>
             <div class="card-leadership">
-              <div class="card-item">
+              <div class="card-item" data-aos="fade-down" data-aos-duration="1000">
                 <div class="card-image">
                   <img class="img-fluid" src="{{ asset('image/leader-img-2.jpg') }}" alt="">
                 </div>
@@ -118,7 +118,7 @@
                 </div>
               </div>
             
-              <div class="card-item">
+              <div class="card-item" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
                 <div class="card-image">
                   <img class="img-fluid" src="{{ asset('image/leader-img-1.jpg') }}" alt="">
                 </div>
@@ -162,7 +162,7 @@
                 </div>
               </div>
 
-              <div class="card-item">
+              <div class="card-item" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
                 <div class="card-image">
                   <img class="img-fluid" src="{{ asset('image/leader-img-3.jpg') }}" alt="">
                 </div>
@@ -195,17 +195,17 @@
           <div class="wrap">
             <h3>Lịch sử hình thành và phát triển</h3>
             <div class="history-list">
-              <div class="history-item">
+              <div class="history-item" data-aos="fade-up" data-aos-duration="1000">
                 <span class="year">2014</span>
                 <img class="img-fluid icon" src="{{ asset('image/history-icon-1.png') }}" alt="">
               </div>
 
-              <div class="history-item">
+              <div class="history-item" data-aos="fade-up" data-aos-duration="1000">
                 <span class="year">2015</span>
                 <img class="img-fluid icon" src="{{ asset('image/history-icon-2.png') }}" alt="">
               </div>
 
-              <div class="history-item">
+              <div class="history-item" data-aos="fade-up" data-aos-duration="1000">
                 <span class="year">2018</span>
                 <img class="img-fluid icon" src="{{ asset('image/history-icon-3.png') }}" alt="">
                 <div class="feature">
@@ -214,7 +214,7 @@
                 </div>
               </div>
 
-              <div class="history-item">
+              <div class="history-item" data-aos="fade-up" data-aos-duration="1000">
                 <span class="year">2022</span>
                 <img class="img-fluid icon" src="{{ asset('image/history-icon-4.png') }}" alt="">
                 <div class="feature">
@@ -240,7 +240,7 @@
             <p>BossStack luôn quan tâm, đầu tư vào việc phát triển con người và xem đây cũng là một trong những chiến lược phát triển lâu dài của công ty.</p>
           </div>
 
-          <a class="btn btn-primary btn-apply" href="#">Ứng tuyển</a>
+          <a class="btn btn-primary btn-apply" href="{{ route('recruitment') }}">Ứng tuyển</a>
         </div>
       </div>
 

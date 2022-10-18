@@ -30,6 +30,15 @@
                   <li>Tìm hiểu các công nghệ mới, tham gia các buổi seminar của công ty.</li>
                 </ul>
               </div>
+              <div class="benefit item">
+                <h4>Quyền lợi:</h4>
+                <ul>
+                  <li>Lương thỏa thuận theo năng lực ứng viên.</li>
+                  <li>Được hưởng các chế độ theo quy định của Luật Lao động hiện hành.</li>
+                  <li>Được công ty trang bị máy tính và các thiết bị phục vụ cho công việc.</li>
+                  <li>Trở thành nhân viên chính thức sau 02 tháng thử việc, có cơ hội thăng tiến trong công việc.</li>
+                </ul>
+              </div>
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyModal">
                 Ứng tuyển ngay
               </button>
