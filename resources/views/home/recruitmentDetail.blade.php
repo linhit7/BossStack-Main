@@ -14,7 +14,8 @@
                 <h4>Mô tả công việc:</h4>
                 <ul>
                   <li>Tham gia phát triển các hệ thống website của công ty.</li>
-                  <li>Tham gia phân tích, thiết kế, và cải tiến chức năng cho các sản phẩm, dịch vụ của công ty và khách hàng.</li>
+                  <li>Tham gia phân tích, thiết kế, và cải tiến chức năng cho các sản phẩm, dịch vụ
+                    của công ty và khách hàng.</li>
                   <li>Phối hợp làm việc với team để nâng cao chất lượng công việc.</li>
                   <li>Tối ưu code để tăng tốc xử lý và mở rộng.</li>
                   <li>Tìm hiểu công nghệ theo yêu cầu của cấp trên.</li>
@@ -36,10 +37,12 @@
                   <li>Lương thỏa thuận theo năng lực ứng viên.</li>
                   <li>Được hưởng các chế độ theo quy định của Luật Lao động hiện hành.</li>
                   <li>Được công ty trang bị máy tính và các thiết bị phục vụ cho công việc.</li>
-                  <li>Trở thành nhân viên chính thức sau 02 tháng thử việc, có cơ hội thăng tiến trong công việc.</li>
+                  <li>Trở thành nhân viên chính thức sau 02 tháng thử việc, có cơ hội thăng tiến trong
+                    công việc.</li>
                 </ul>
               </div>
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyModal">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#applyModal">
                 Ứng tuyển ngay
               </button>
             </div>
@@ -82,7 +85,8 @@
     </div>
   </div>
 
-  <div class="modal fade" id="applyModal" data-bs-backdrop="apply" data-bs-keyboard="false" tabindex="-1" aria-labelledby="applyBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="applyModal" data-bs-backdrop="apply" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="applyBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <form action="">
@@ -93,7 +97,7 @@
                 <input type="text" id="fullName" class="form-control" required>
                 <label for="fullName" class="form-label">Tên của bạn <span>&#42;</span></label>
               </div>
-              
+
               <div class="form-group">
                 <div class="form-item form-info">
                   <input type="email" id="email" class="form-control" required>
@@ -124,7 +128,8 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary btn-exit" data-bs-dismiss="modal">Đóng</button>
+            <button type="button" class="btn btn-primary btn-exit"
+              data-bs-dismiss="modal">Đóng</button>
             <button type="submit" class="btn btn-primary btn-apply">Nộp CV</button>
           </div>
         </form>
@@ -141,11 +146,14 @@
     selectCvFile.style.display = "none";
     filePath.addEventListener("change", function demo() {
       let nameFile = filePath.value.slice(12);
-      console.log("demo ~ nameFile", nameFile);
       if (nameFile) {
         selectCvFile.style.display = "block";
         selectCvFile.innerHTML = nameFile;
       }
     });
+    document.querySelector(".btn-exit").addEventListener("click", function() {
+      selectCvFile.style.display = "none";
+      selectCvFile.innerHTML = "";
+    })
   </script>
 @endsection
