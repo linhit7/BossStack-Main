@@ -184,7 +184,7 @@
           </div>
         </div>
       </section>
-      <img class="bg-circle" src="https://bossstack.com.vn/image/circle.png" alt="" />
+      <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="" />
     </div>
   </div>
   @endsection @section('scripts')

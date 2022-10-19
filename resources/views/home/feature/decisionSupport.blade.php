@@ -5,9 +5,9 @@
 
   <div class="main-decisionSupport">
     <div class="feature-page decision-support overflow-hidden">
-      <img class="bg-circle" src="https://bossstack.com.vn/image/circle.png" alt="" />
-      <img class="bg-circle" src="https://bossstack.com.vn/image/circle.png" alt="" />
-      <img class="bg-circle" src="https://bossstack.com.vn/image/circle.png" alt="" />
+      <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="" />
+      <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="" />
+      <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="" />
       <section class="section section-feature section-benefitApp overflow-hidden pt-96 pb-96">
         <div class="line --top"></div>
         <div class="container">
@@ -128,8 +128,8 @@
               </div>
             </div>
           </div>
-          <img class="img-fluid circle-disc-gray"
-            src="https://bossstack.com.vn/image/circle-disc-gray.png" alt="" />
+          <img class="img-fluid circle-disc-gray" src="{{ asset('image/circle-disc-gray.png') }}"
+            alt="" />
         </div>
       </section>
 

@@ -5,31 +5,31 @@
 
   <div class="main-lossControl">
     <div class="feature-page loss-control overflow-hidden">
-      <img class="bg-circle" src="https://bossstack.com.vn/image/circle.png" alt="">
-      
+      <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="">
+
       <section class="section section-feature section-benefitApp overflow-hidden pt-96">
         <div class="line --top"></div>
         <div class="container">
           <div class="feature-wrap">
             <h3 class="section-title text-center">Lợi ích của tính năng Kiểm soát thất thoát</h3>
-    
+
             <div class="card-list">
               <div class="card">
                 <img src="{{ asset('image/icon-bs-4.svg') }}" class="card-img-top">
                 <div class="card-body">
-                  <h4 class="card-title">Tiết kiệm thời gian<br/>quản lý</h4>
+                  <h4 class="card-title">Tiết kiệm thời gian<br />quản lý</h4>
                 </div>
               </div>
               <div class="card">
                 <img src="{{ asset('image/icon-bs-5.svg') }}" class="card-img-top">
                 <div class="card-body">
-                  <h4 class="card-title">Kiểm soát thất thoát từ quản lý quy<br/>trình vận hành</h4>
+                  <h4 class="card-title">Kiểm soát thất thoát từ quản lý quy<br />trình vận hành</h4>
                 </div>
               </div>
               <div class="card">
                 <img src="{{ asset('image/icon-bs-6.svg') }}" class="card-img-top">
                 <div class="card-body">
-                  <h4 class="card-title">Quản lý nhân sự sản xuất, chấm<br/>công tự động</h4>
+                  <h4 class="card-title">Quản lý nhân sự sản xuất, chấm<br />công tự động</h4>
                 </div>
               </div>
             </div>
@@ -46,26 +46,32 @@
                 <p>Doanh nghiệp phải đối mặt với nhiều thách thức như:</p>
                 <ul class="advertisement-list">
                   <li>
-                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}"
+                      alt="">
                     Nhân công làm việc không hiệu quả
                   </li>
                   <li>
-                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}"
+                      alt="">
                     Thất thoát nguyên vật liệu
                   </li>
                   <li>
-                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}"
+                      alt="">
                     Thất thoát hàng hóa kho
                   </li>
                   <li>
-                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}"
+                      alt="">
                     Phần mềm quản lý nhân sự sản xuất
                   </li>
                 </ul>
-                <p>Vậy nên chủ doanh nghiệp cần một <span class="highlight">hệ thống để kiểm soát thất thoát</span> để tiết kiệm thời gian quản lý.</p>
+                <p>Vậy nên chủ doanh nghiệp cần một <span class="highlight">hệ thống để kiểm soát thất
+                    thoát</span> để tiết kiệm thời gian quản lý.</p>
               </div>
               <div class="card-image">
-                <img class="img-fluid" src="{{ asset('image/img-advertisement-1.png') }}" alt="">
+                <img class="img-fluid" src="{{ asset('image/img-advertisement-1.png') }}"
+                  alt="">
               </div>
             </div>
           </div>
@@ -78,26 +84,33 @@
           <div class="wrap">
             <div class="card-advertisement reverse">
               <div class="card-body">
-                <h3>BossStack giúp doanh nghiệp thực thi dự án và kiểm soát thất thoát như thế nào ?</h3>
+                <h3>BossStack giúp doanh nghiệp thực thi dự án và kiểm soát thất thoát như thế nào ?
+                </h3>
                 <ul class="advertisement-list">
                   <li>
-                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}"
+                      alt="">
                     Công nghệ quản lý nhân sự
                   </li>
                   <li>
-                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}"
+                      alt="">
                     Chụp ảnh thời gian thực
                   </li>
                   <li>
-                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('image/icon-right-sm.svg') }}"
+                      alt="">
                     GPS và check in real-time
                   </li>
                 </ul>
-    
-                <p>Vậy nên chủ doanh nghiệp sẽ tiết kiệm được <span class="highlight">thời gian quản lý</span> thông qua công nghệ và kiểm soát thất thoát từ việc quản lí quy trình vận hành.</p>
+
+                <p>Vậy nên chủ doanh nghiệp sẽ tiết kiệm được <span class="highlight">thời gian quản
+                    lý</span> thông qua công nghệ và kiểm soát thất thoát từ việc quản lí quy trình
+                  vận hành.</p>
               </div>
               <div class="card-image">
-                <img class="img-fluid" src="{{ asset('image/img-advertisement-2.png') }}" alt="">
+                <img class="img-fluid" src="{{ asset('image/img-advertisement-2.png') }}"
+                  alt="">
               </div>
             </div>
           </div>
@@ -107,7 +120,8 @@
       <section class="section section-feature section-network section-second-cl pb-96">
         <div class="container">
           <div class="wrap">
-            <h3 class="section-title text-center">Kết nối quản lý <span>tại văn phòng và nhân viên tuyến đầu</span></h3>
+            <h3 class="section-title text-center">Kết nối quản lý <span>tại văn phòng và nhân viên
+                tuyến đầu</span></h3>
             <div class="network-group">
               <h4 class="title">Chức năng dành cho người quản lý và chủ doanh nghiệp</h4>
               <div class="card-list">
@@ -120,7 +134,7 @@
                 <div class="card">
                   <img src="{{ asset('image/icon-bs-8.svg') }}" class="card-img-top">
                   <div class="card-body">
-                    <h4 class="card-title">Theo dõi tiến độ công việc<br/>công việc</h4>
+                    <h4 class="card-title">Theo dõi tiến độ công việc<br />công việc</h4>
                   </div>
                 </div>
                 <div class="card">
@@ -137,19 +151,20 @@
                 <div class="card">
                   <img src="{{ asset('image/icon-bs-10.svg') }}" class="card-img-top">
                   <div class="card-body">
-                    <h4 class="card-title">Thực hiện chấm công <br/>từ xa</h4>
+                    <h4 class="card-title">Thực hiện chấm công <br />từ xa</h4>
                   </div>
                 </div>
                 <div class="card">
                   <img src="{{ asset('image/icon-bs-11.svg') }}" class="card-img-top">
                   <div class="card-body">
-                    <h4 class="card-title">Chụp ảnh, báo cáo tiến độ <br/>theo thời gian thực</h4>
+                    <h4 class="card-title">Chụp ảnh, báo cáo tiến độ <br />theo thời gian thực</h4>
                   </div>
                 </div>
                 <div class="card">
                   <img src="{{ asset('image/icon-bs-12.svg') }}" class="card-img-top">
                   <div class="card-body">
-                    <h4 class="card-title">Đo lường khối lượng hàng <br/>hoá - Kiểm soát thất thoát</h4>
+                    <h4 class="card-title">Đo lường khối lượng hàng <br />hoá - Kiểm soát thất thoát
+                    </h4>
                   </div>
                 </div>
               </div>
@@ -157,8 +172,8 @@
           </div>
         </div>
       </section>
-    
-      <img class="bg-circle" src="https://bossstack.com.vn/image/circle.png" alt="">
+
+      <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="">
     </div>
   </div>
 @endsection

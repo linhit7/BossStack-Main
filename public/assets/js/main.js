@@ -114,7 +114,7 @@ document.querySelector("body").addEventListener("click", function (e) {
 });
 
 let selectTrapezium = document.querySelector(".bg-trapezium-xl");
-if (window.location.href === "https://bossstack.com.vn/") {
+if (window.location.href === "https://bossstack.vn/" || window.location.href === "https://bossstack.vn/public/") {
   let selectAdvertiseHome = document.querySelector(".section-advertise");
   let selectAdvertiseRight =
     selectAdvertiseHome.querySelector(".advertise-right");
