@@ -187,6 +187,7 @@
       <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="" />
     </div>
   </div>
-  @endsection @section('scripts')
+@endsection
+@section('scripts')
   <script src="{{ asset('assets/js/banner.js') }}"></script>
 @endsection

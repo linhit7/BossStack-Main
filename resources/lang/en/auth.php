@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'failed' => 'Tên đăng nhập hoặc mật khẩu không chính xác. Quý khách lưu ý, dịch vụ sẽ bị tạm khóa nếu quý khách nhập sai mật khẩu từ 5 lần trở lên.',
+    'failed' => 'Tên đăng nhập hoặc mật khẩu không chính xác.',
     'throttle' => 'Tên đăng nhập hoặc mật khẩu không chính xác. Quý khách lưu ý, dịch vụ sẽ bị tạm khóa nếu quý khách nhập sai mật khẩu từ 5 lần trở lên. Quý khách vui lòng đăng nhập lại sau :seconds giây.',
 
 ];

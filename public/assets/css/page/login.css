@@ -1,0 +1,122 @@
+.main-login .section-login{
+  width: 100vw;
+  height: calc(100vh - 9rem);
+  overflow: hidden;
+  background-color: var(--second-cl);
+}
+
+.section-login .container,
+.section-login .wrap{
+  height: 100%;
+}
+
+.section-login .wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box{
+  width: 110rem;
+  height: 68.3rem;
+  display: flex;
+  overflow: hidden;
+  border-radius: 2rem;
+  background-color: var(--white-cl);
+}
+
+.login-box .login-item{
+  width: 50%;
+}
+
+.login-box .login-image,
+.login-box .login-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box .login-image{
+  background-color: #f3f3f3;
+}
+
+.login-box .login-content{
+  flex-direction: column;
+}
+
+.login-content .login-logo,
+.login-content .login-text{
+  margin-bottom: 3.2rem;
+}
+
+.login-text{
+  font-family: hm;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.login-form{
+  width: 42rem;
+}
+
+.login-form .login-form__group{
+  position: relative;
+  margin-bottom: 1.6rem;
+}
+
+.login-form .form-control{
+  color: #262626;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  padding: 1.5rem 3.2rem;
+  border-radius: .5rem;
+  border: 1px solid #D9D9D9;
+  background-color: #F3F3F3;
+}
+
+.login-form .form-control::placeholder{
+  color: #828282;
+}
+
+.login-form .form-control:focus{
+  box-shadow: none;
+}
+
+.login-form .show-text{
+  color: #D9D9D9;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 3.2rem;
+  transform: translateY(-50%);
+}
+
+.login-form .login-noti{
+  width: 42rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.login-form .login-noti.error{
+  color: #D93025;
+}
+
+.login-form .btn{
+  --w-btn: 42rem;
+  --h-btn: 4.8rem;
+  --fs-btn: 1.8rem;
+}
+
+.login-form .btn.btn-primary{
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--second-cl);
+}
+
+.login-form .btn.btn-primary:hover{
+  --cl: var(--white-cl);
+  --border-cl: transparent;
+  --bg-cl: var(--primary-cl);
+}

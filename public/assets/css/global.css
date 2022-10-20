@@ -62,6 +62,7 @@ a {
 
 .main {
   position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 1199.98px) {

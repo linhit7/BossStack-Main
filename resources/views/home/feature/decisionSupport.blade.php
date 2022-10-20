@@ -161,6 +161,7 @@
       </section>
     </div>
   </div>
-  @endsection @section('scripts')
+@endsection
+@section('scripts')
   <script src="{{ asset('assets/js/banner.js') }}"></script>
 @endsection

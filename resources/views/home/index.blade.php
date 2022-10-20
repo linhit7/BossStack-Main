@@ -39,6 +39,7 @@
   <link rel="stylesheet" href="{{ asset('assets/css/page/recruitment.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/page/client.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/page/contact.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/css/page/login.css') }}">
 
   @yield('head')
 </head>

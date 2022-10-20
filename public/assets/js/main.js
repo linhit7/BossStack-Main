@@ -10,24 +10,28 @@ AOS.init({
   throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 });
 
+const bodyElm = document.querySelector("body")
 let getBannerDefault = document.querySelector(".banner");
-let getTitlePage = getBannerDefault.querySelector("h2");
-let getDesPage = getBannerDefault.querySelector(".des");
-let getImgBanner = getBannerDefault.querySelector(".bg-feature-img");
-let getBtnBanner = getBannerDefault.getElementsByTagName("a");
-listTitlePage.map((element) => {
-  if (window.location.href === element.link) {
-    getTitlePage.innerHTML = element.titlePage;
-    if (element.description !== "") {
-      getDesPage.innerHTML = element.description;
-    }
 
-    if (element.imageLink !== undefined && element.button !== undefined) {
-      getImgBanner.setAttribute("src", element.imageLink);
-      getBtnBanner[0].innerHTML = element.button;
+if(bodyElm.contains(getBannerDefault)){
+  let getTitlePage = getBannerDefault.querySelector("h2");
+  let getDesPage = getBannerDefault.querySelector(".des");
+  let getImgBanner = getBannerDefault.querySelector(".bg-feature-img");
+  let getBtnBanner = getBannerDefault.getElementsByTagName("a");
+  listTitlePage.map((element) => {
+    if (window.location.href === element.link) {
+      getTitlePage.innerHTML = element.titlePage;
+      if (element.description !== "") {
+        getDesPage.innerHTML = element.description;
+      }
+
+      if (element.imageLink !== undefined && element.button !== undefined) {
+        getImgBanner.setAttribute("src", element.imageLink);
+        getBtnBanner[0].innerHTML = element.button;
+      }
     }
-  }
-});
+  });
+}
 
 // let getRecruitmentList = document.querySelector(".recruitment-list");
 // let nameRecruitmentInfo = getRecruitmentList.querySelector(".name");
@@ -114,7 +118,7 @@ document.querySelector("body").addEventListener("click", function (e) {
 });
 
 let selectTrapezium = document.querySelector(".bg-trapezium-xl");
-if (window.location.href === "https://bossstack.vn/" || window.location.href === "https://bossstack.vn/public/") {
+if (document.querySelector(".main").contains(document.querySelector(".main-home"))) {
   let selectAdvertiseHome = document.querySelector(".section-advertise");
   let selectAdvertiseRight =
     selectAdvertiseHome.querySelector(".advertise-right");

@@ -2,9 +2,11 @@
   <div class="container">
     <div class="wrap">
       <div class="footer-item">
-        <a href="{{ route('home') }}" class="logo"><img class="img-fluid" src="{{ asset('image/logo.svg') }}" alt=""></a>
+        <a href="{{ route('home') }}" class="logo"><img class="img-fluid"
+            src="{{ asset('image/logo.svg') }}" alt=""></a>
         <div class="content">
-          <p><span>Address:</span> LM81 - 42.OT04 (Officetel), Landmark 81 Vinhomes Central Park, 720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp Hồ Chí Minh.</p>
+          <p><span>Address:</span> LM81 - 42.OT04 (Officetel), Landmark 81 Vinhomes Central Park,
+            720A Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp Hồ Chí Minh.</p>
           <p><span>Hotline:</span> +84 918 90 55 00</p>
           <p><span>Email:</span> info@bossstack.vn</p>
         </div>
@@ -22,7 +24,7 @@
           </li>
 
           <li class="menu-item">
-            <a href="{{ route('decision-support') }}" class="menu-link">Hỗ trợ ra quyết định</a>
+            <a href="{{ route('decision-support') }}" class="menu-link">Hỗ trợ quyết định</a>
           </li>
         </ul>
       </div>
