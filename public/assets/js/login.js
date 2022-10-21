@@ -14,12 +14,12 @@ selectShowText.addEventListener("click", function (e) {
   }
 })
 
-selectInput.forEach((inputElm) => {
-  inputElm.addEventListener("change", function(e) {
-    console.log(e.currentTarget.getAttribute("required"));
-    if (e.currentTarget.value === "") {
+// selectInput.forEach((inputElm) => {
+//   inputElm.addEventListener("change", function(e) {
+//     console.log(e.currentTarget.getAttribute("required"));
+//     if (e.currentTarget.value === "") {
       
-    }
-  })
-})
+//     }
+//   })
+// })
 

@@ -92,7 +92,6 @@ $(function() {
     }else{
         $('.navbar-desktop').show();
         $('.navbar-mobile').hide();
-        $('.main-sidebar').css("padding-top", "0");
     }
 });
 

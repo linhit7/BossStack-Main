@@ -27,18 +27,18 @@
                 {{ csrf_field() }}
                 <div class="login-form__group">
                   <input type="email" class="form-control" id="email" placeholder="Email"
-                    name="email" value="{{ env('TEST_USERNAME') }}">
+                    name="email" value="{{ env('TEST_USERNAME') }}" required>
                 </div>
 
                 <div class="login-form__group">
                   <input type="password" class="form-control" placeholder="Password" name="password"
-                    id="password" value="{{ env('TEST_PASSWORD') }}">
+                    id="password" value="{{ env('TEST_PASSWORD') }}" required>
                   <span class="show-text"></span>
                 </div>
 
                 <div class="login-form__group d-flex align-items-center">
                   <input type="captchacode" class="form-control" placeholder="Mã kiểm tra"
-                    name="captchacode">
+                    name="captchacode" required>
                   <img id="captcha" name="captcha" src="{{ route('apiadmin-getCaptcha') }}">
                 </div>
 

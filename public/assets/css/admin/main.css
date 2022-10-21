@@ -1,0 +1,155 @@
+:root {
+  --primary-cl: #2763C2;
+  --white-cl: #ffffff;
+  --black-cl: #000000;
+  --black-cl-1: #262626;
+
+  --w-siderbar-left: 37.8rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+} 
+
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+}
+
+h2{
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+
+.skin-blue .wrapper, 
+.skin-blue .main-sidebar, 
+.skin-blue .left-side{
+  background-color: var(--white-cl);
+}
+
+/* Sidebar Top */
+
+/* Sidebar Left */
+.main-sidebar{
+  padding: 3rem 3.3rem 3rem 0;
+  width: var(--w-siderbar-left);
+}
+
+.main-sidebar .sidebar-logo,
+.main-sidebar .user-panel{
+  padding-left: 3.3rem;
+}
+
+.main-sidebar .sidebar-logo{
+  display: inline-block;
+  margin-bottom: 2.6rem;
+}
+
+.main-sidebar .sidebar-logo img{
+  width: 28.4rem;
+}
+
+.user-panel{
+  display: flex;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+
+.user-panel .user-panel-avt{
+  width: 10rem;
+  height: 10rem;
+  border-radius: .5rem;
+  overflow: hidden;
+  margin-right: 1.8rem;
+}
+
+.user-panel .user-panel-avt img,
+.user-panel .user-panel-avt p{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  object-fit: cover;
+}
+
+.user-panel .user-panel-avt p{
+  font-size: 7rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-cl);
+  background-color: var(--primary-cl);
+}
+
+.user-panel-info .info{
+  display: flex;
+  align-items: center;
+}
+
+.user-panel-info .info h2{
+  font-weight: 700;
+  margin: 0 1rem 0 0;
+}
+
+.user-panel-info .role{
+  margin-top: .8rem;
+  margin-bottom: 0;
+}
+
+.sidebar-menu li.header,
+.skin-blue .sidebar-menu > li > a{
+  padding-left: 3.3rem;
+}
+
+.skin-blue .sidebar-menu > li.header{
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  background-color: var(--white-cl);
+}
+
+.sidebar-menu > li.header h2{
+  color: var(--black-cl);
+  font-weight: 700;
+  margin: 0;
+}
+
+.skin-blue .sidebar-menu > li > a{
+  font-weight: 400;
+  color: var(--black-cl-1);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-left: 0;
+  display: flex;
+  align-items: center;
+  column-gap: 2.4rem;
+}
+
+.skin-blue .sidebar-menu > li:hover > a,
+.skin-blue .sidebar-menu > li.active > a{
+  color: var(--primary-cl);
+  background-color: #EDF6FF;
+}
+
+.skin-blue .sidebar-menu > li.active > a{
+  border-left-color: transparent;
+}
+
+.sidebar-menu > li > a img{
+  width: 2.4rem;
+}
+
+
+/* Content Main */
+.content-wrapper{
+  margin-left: var(--w-siderbar-left)
+}
