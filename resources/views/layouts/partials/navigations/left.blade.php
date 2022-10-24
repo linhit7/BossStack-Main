@@ -41,13 +41,13 @@
         <h2>Resources</h2>
       </li>
       <li class="list-menu">
-        <a href="#" data-name="">
+        <a href="{{ route('blogs-manage') }}" data-name="">
           <img src="{{ asset('image/icon-ad-blog.svg') }}" alt="">
           Blog
         </a>
       </li>
       <li class="list-menu">
-        <a href="#" data-name="">
+        <a href="{{ route('customers-index') }}" data-name="">
           <img src="{{ asset('image/icon-ad-client.svg') }}" alt="">
           Khách hàng
         </a>
@@ -57,13 +57,13 @@
         <h2>Tuyển dụng</h2>
       </li>
       <li class="list-menu">
-        <a href="#" data-name="">
+        <a href="{{ route('careers-manage') }}" data-name="">
           <img src="{{ asset('image/icon-ad-recruitment.svg') }}" alt="">
           Danh sách tuyển dụng
         </a>
       </li>
       <li class="list-menu">
-        <a href="#" data-name="">
+        <a href="{{ route('careers-index') }}" data-name="">
           <img src="{{ asset('image/icon-ad-apply.svg') }}" alt="">
           Tin tuyển dụng
         </a>
