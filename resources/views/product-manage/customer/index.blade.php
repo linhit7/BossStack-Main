@@ -1,25 +1,23 @@
-
-
-@section('head')
-<link rel="stylesheet" href="{{ asset('css/pages/style_admin.css') }}">
-
-<style type="text/css">
-    @media only screen and (min-width: 320px) and (max-width: 575px){
-        .text-nowrap{
-            white-space: nowrap !important;
-        }
-    }
-</style>
-@endsection
+@extends('layouts.master')
 
 @section('content')
 
+@if(session()->has('success'))
+    @include('layouts.partials.messages.success')
+@endif
 
+<div class="row">
+    <div class="col-md-12">
+    THÔNG TIN KHÁCH HÀNG
+
+        <br>
+        <a href="{{ route('dashboard-manage') }}" style="width: 16%;"><i class="fa fa-arrow-left"></i> Quay lại</a>
+    </div>
+       
+</div>
 
 @endsection
-
 
 @section('scripts')
-@include('product-manage.customer.partials.script')
+@include('product-manage.blog.partials.script')
 @endsection
-
