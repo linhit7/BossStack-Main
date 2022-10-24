@@ -41,6 +41,7 @@ h2{
 
 /* Sidebar Left */
 .main-sidebar{
+  overflow: hidden;
   padding: 3rem 3.3rem 3rem 0;
   width: var(--w-siderbar-left);
 }
@@ -89,11 +90,6 @@ h2{
   justify-content: center;
   color: var(--white-cl);
   background-color: var(--primary-cl);
-}
-
-.user-panel-info .info{
-  display: flex;
-  align-items: center;
 }
 
 .user-panel-info .info h2{
@@ -148,8 +144,94 @@ h2{
   width: 2.4rem;
 }
 
+.main-sidebar .bg-circle{
+  --w-bg-circle: 48.5rem;
+  width: var(--w-bg-circle);
+  position: absolute;
+  left: -11rem;
+  bottom: calc(-1 * (var(--w-bg-circle) / 2));
+}
 
 /* Content Main */
 .content-wrapper{
-  margin-left: var(--w-siderbar-left)
+  padding: 2.4rem;
+  position: relative;
+  background-color: #F5F7FB;
+  margin-left: var(--w-siderbar-left);
+}
+
+.content-wrapper .content-top{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 1.6rem;
+  margin-bottom: 3.5rem;
+}
+
+.content-top .search{
+  border-right: 2px solid #D9D9D9;
+}
+
+.content-top .search form{
+  display: flex;
+  align-items: center;
+  width: 12.2rem;
+  column-gap: .8rem;
+  padding: .8rem 1.4rem .8rem 0;
+}
+
+.content-top .search i,
+.content-top .search input{
+  color: #828282;
+}
+
+.content-top .search input{
+  border: 0;
+  width: 7rem;
+  background-color: transparent;
+}
+
+.content-top .avatar-sm{
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.content-top .avatar-sm img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-top .sign-out a{
+  display: flex;
+  align-items: center;
+  column-gap: .8rem;
+  color: #828282;
+}
+
+.content-wrapper .content-header{
+  padding: 0;
+}
+
+.content-wrapper .content-header h1{
+  display: flex;
+  align-items: center;
+  column-gap: .8rem;
+  font-size: 2.8rem;
+}
+
+.content-wrapper .content{
+  padding: 0;
+}
+
+.content-wrapper .bg-circle{
+  --w-bg-circle: 29.6rem;
+  width: var(--w-bg-circle);
+  position: absolute;
+  left: 50%;
+  top: -21rem;
+  z-index: 1;
+  transform: translateX(-50%);
 }

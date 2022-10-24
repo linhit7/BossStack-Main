@@ -24,16 +24,6 @@
       <div class="user-panel-info">
         <div class="info">
           <h2>{{ Auth::user() == null ? '' : Auth::user()->name }}</h2>
-          <div class="sign-out">
-            <a href="{{ route('logout') }}" title="Đăng xuất"
-              onclick="event.preventDefault();
-              document.getElementById('logout-form').submit();">
-              <i class="fas fa-sign-out-alt"></i>
-            </a>
-            <form type="hidden" id="logout-form" action="{{ route('logout') }}" method="POST">
-              @csrf
-            </form>
-          </div>
         </div>
         <p class="role">Admin</p>
       </div>
@@ -125,4 +115,6 @@
     </ul> --}}
   </section>
   <!-- /.sidebar -->
+
+  <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="">
 </aside>

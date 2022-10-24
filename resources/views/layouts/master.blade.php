@@ -72,13 +72,41 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+      <section class="content-top">
+        <div class="search">
+          <form action="" method="post">
+            <i class="fas fa-search"></i>
+            <input type="text" name="searchInput" id="searchInput" placeholder="Search....">
+          </form>
+        </div>
+        <div class="avatar-sm">
+          <img src="{{ asset('image/leader-img-2.jpg') }}" alt="BossStack">
+        </div>
+        <div class="sign-out">
+          <a href="{{ route('logout') }}" title="Đăng xuất"
+            onclick="event.preventDefault();
+            document.getElementById('logout-form').submit();">
+            <img src="{{ asset('image/icon-signout.svg') }}" alt="">
+            <span>Đăng xuất</span>
+          </a>
+          <form type="hidden" id="logout-form" action="{{ route('logout') }}" method="POST">
+            @csrf
+          </form>
+        </div>
+      </section>
+
       <section class="content-header">
-        <h1>{{ $title->heading }}</h1>
+        <h1>
+          <img src="{{ asset('image/circle-disc-blue-1.png') }}" alt="">
+          {{ $title->heading }}
+        </h1>
       </section>
 
       <section class="content">
         @yield('content')
       </section>
+
+      <img class="bg-circle" src="{{ asset('image/circle.png') }}" alt="">
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer" style="display: none;"></footer>
